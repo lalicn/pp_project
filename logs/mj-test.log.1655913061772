@@ -1,0 +1,188 @@
+INFO  17:50:41,216 - Compiling source file: C:\Users\Korisnik\Desktop\Programski prevodioci\Uradjeno\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  17:50:41,269 - #2 program
+INFO  17:50:41,269 - #50 test301
+INFO  17:50:41,269 - #50 int
+INFO  17:50:41,270 - #50 niz
+INFO  17:50:41,272 - #43 [
+INFO  17:50:41,273 - #44 ]
+INFO  17:50:41,273 - #37 ;
+INFO  17:50:41,273 - #45 {
+INFO  17:50:41,273 - #13 void
+INFO  17:50:41,274 - #50 main
+INFO  17:50:41,274 - #41 (
+INFO  17:50:41,275 - #42 )
+INFO  17:50:41,275 - #45 {
+INFO  17:50:41,276 - #50 niz
+INFO  17:50:41,276 - #43 [
+INFO  17:50:41,276 - #49 1
+INFO  17:50:41,276 - #44 ]
+INFO  17:50:41,277 - #34 =
+INFO  17:50:41,277 - #49 1
+INFO  17:50:41,277 - #37 ;
+INFO  17:50:41,278 - #50 niz
+INFO  17:50:41,279 - #43 [
+INFO  17:50:41,279 - #50 niz
+INFO  17:50:41,279 - #43 [
+INFO  17:50:41,279 - #49 1
+INFO  17:50:41,279 - #44 ]
+INFO  17:50:41,279 - #25 ^
+INFO  17:50:41,279 - #41 (
+INFO  17:50:41,281 - #49 2
+INFO  17:50:41,281 - #22 *
+INFO  17:50:41,281 - #49 2
+INFO  17:50:41,282 - #42 )
+INFO  17:50:41,282 - #44 ]
+INFO  17:50:41,282 - #34 =
+INFO  17:50:41,282 - #49 2
+INFO  17:50:41,282 - #37 ;
+INFO  17:50:41,283 - #46 }
+INFO  17:50:41,283 - #46 }
+INFO  17:50:41,285 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  Decl(
+    DeclarationsDerived1(
+    ) [DeclarationsDerived1]
+    VarDec(
+      VarDeclara(
+        VarType(
+          Type(
+           int
+          ) [Type]
+        ) [VarType]
+        NoVarCommaDecl(
+        ) [NoVarCommaDecl]
+        VarArrayD(
+         niz
+        ) [VarArrayD]
+      ) [VarDeclara]
+    ) [VarDec]
+  ) [Decl]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        VoidReturn(
+        ) [VoidReturn]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      StmtList(
+        StmtList(
+          NoStmt(
+          ) [NoStmt]
+          NoLabelStatement(
+            DesignStatement(
+              AssignopDesignator(
+                ArrayDesignator(
+                  IdentDesignator(
+                   niz
+                  ) [IdentDesignator]
+                  TermExpr(
+                    SingleFactorTerm(
+                      SingleBaseExpFactor(
+                        NumberConst(
+                         1
+                        ) [NumberConst]
+                      ) [SingleBaseExpFactor]
+                    ) [SingleFactorTerm]
+                  ) [TermExpr]
+                ) [ArrayDesignator]
+                Assignop(
+                ) [Assignop]
+                TermExpr(
+                  SingleFactorTerm(
+                    SingleBaseExpFactor(
+                      NumberConst(
+                       1
+                      ) [NumberConst]
+                    ) [SingleBaseExpFactor]
+                  ) [SingleFactorTerm]
+                ) [TermExpr]
+              ) [AssignopDesignator]
+            ) [DesignStatement]
+          ) [NoLabelStatement]
+        ) [StmtList]
+        NoLabelStatement(
+          DesignStatement(
+            AssignopDesignator(
+              ArrayDesignator(
+                IdentDesignator(
+                 niz
+                ) [IdentDesignator]
+                TermExpr(
+                  SingleFactorTerm(
+                    MultipleBaseExpsFactor(
+                      SingleBaseExpFactor(
+                        Var(
+                          ArrayDesignator(
+                            IdentDesignator(
+                             niz
+                            ) [IdentDesignator]
+                            TermExpr(
+                              SingleFactorTerm(
+                                SingleBaseExpFactor(
+                                  NumberConst(
+                                   1
+                                  ) [NumberConst]
+                                ) [SingleBaseExpFactor]
+                              ) [SingleFactorTerm]
+                            ) [TermExpr]
+                          ) [ArrayDesignator]
+                        ) [Var]
+                      ) [SingleBaseExpFactor]
+                      Square(
+                      ) [Square]
+                      Expression(
+                        TermExpr(
+                          MultipleFactorsTerm(
+                            SingleFactorTerm(
+                              SingleBaseExpFactor(
+                                NumberConst(
+                                 2
+                                ) [NumberConst]
+                              ) [SingleBaseExpFactor]
+                            ) [SingleFactorTerm]
+                            Multiply(
+                            ) [Multiply]
+                            SingleBaseExpFactor(
+                              NumberConst(
+                               2
+                              ) [NumberConst]
+                            ) [SingleBaseExpFactor]
+                          ) [MultipleFactorsTerm]
+                        ) [TermExpr]
+                      ) [Expression]
+                    ) [MultipleBaseExpsFactor]
+                  ) [SingleFactorTerm]
+                ) [TermExpr]
+              ) [ArrayDesignator]
+              Assignop(
+              ) [Assignop]
+              TermExpr(
+                SingleFactorTerm(
+                  SingleBaseExpFactor(
+                    NumberConst(
+                     2
+                    ) [NumberConst]
+                  ) [SingleBaseExpFactor]
+                ) [SingleFactorTerm]
+              ) [TermExpr]
+            ) [AssignopDesignator]
+          ) [DesignStatement]
+        ) [NoLabelStatement]
+      ) [StmtList]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:50:41,285 - ===================================
+INFO  17:50:41,304 - Deklarisana promjenljiva niz na liniji 5
+INFO  17:50:41,304 - Obradjuje se funkcija main na liniji 8
+ERROR 17:50:41,304 - Greska: pogresan tip! na liniji 11
+INFO  17:50:41,304 - ===================================
+ERROR 17:50:41,305 - Parsiranje nije uspjesno zavrseno!

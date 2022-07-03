@@ -1,0 +1,132 @@
+INFO  09:45:24,693 - Compiling source file: C:\Users\Korisnik\Desktop\Programski prevodioci\Uradjeno\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  09:45:24,732 - #2 program
+INFO  09:45:24,732 - #49 MJProgram
+INFO  09:45:24,732 - #49 int
+INFO  09:45:24,733 - #49 x
+INFO  09:45:24,735 - #36 ;
+INFO  09:45:24,735 - #6 const
+INFO  09:45:24,735 - #49 char
+INFO  09:45:24,735 - #49 y
+INFO  09:45:24,736 - #33 =
+INFO  09:45:24,736 - #48 2
+INFO  09:45:24,736 - #36 ;
+INFO  09:45:24,736 - #44 {
+INFO  09:45:24,737 - #49 int
+INFO  09:45:24,737 - #49 main
+INFO  09:45:24,737 - #40 (
+INFO  09:45:24,738 - #41 )
+INFO  09:45:24,738 - #44 {
+INFO  09:45:24,739 - #49 x
+INFO  09:45:24,740 - #33 =
+INFO  09:45:24,740 - #48 3
+INFO  09:45:24,748 - #36 ;
+INFO  09:45:24,748 - #10 print
+INFO  09:45:24,749 - #40 (
+INFO  09:45:24,749 - #49 x
+INFO  09:45:24,749 - #41 )
+INFO  09:45:24,749 - #36 ;
+INFO  09:45:24,749 - #45 }
+INFO  09:45:24,749 - #45 }
+INFO  09:45:24,753 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  Decl(
+    Decl(
+      DeclarationsDerived1(
+      ) [DeclarationsDerived1]
+      VarDec(
+        VarDeclara(
+          VarType(
+            Type(
+             int
+            ) [Type]
+          ) [VarType]
+          NoVarCommaDecl(
+          ) [NoVarCommaDecl]
+          VarDeclaration(
+           x
+          ) [VarDeclaration]
+        ) [VarDeclara]
+      ) [VarDec]
+    ) [Decl]
+    ConstDec(
+      ConstDeclar(
+        ConstType(
+          Type(
+           char
+          ) [Type]
+        ) [ConstType]
+        SingleConstDecl(
+          ConstDNum(
+           y
+            Assignop(
+            ) [Assignop]
+           2
+          ) [ConstDNum]
+        ) [SingleConstDecl]
+      ) [ConstDeclar]
+    ) [ConstDec]
+  ) [Decl]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        TypeReturn(
+          Type(
+           int
+          ) [Type]
+        ) [TypeReturn]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      StmtList(
+        StmtList(
+          NoStmt(
+          ) [NoStmt]
+          NoLabelStatement(
+            DesignStatement(
+              AssignopDesignator(
+                IdentDesignator(
+                 x
+                ) [IdentDesignator]
+                Assignop(
+                ) [Assignop]
+                TermExpr(
+                  SingleFactorTerm(
+                    NumberConst(
+                     3
+                    ) [NumberConst]
+                  ) [SingleFactorTerm]
+                ) [TermExpr]
+              ) [AssignopDesignator]
+            ) [DesignStatement]
+          ) [NoLabelStatement]
+        ) [StmtList]
+        NoLabelStatement(
+          PrintStatement(
+            TermExpr(
+              SingleFactorTerm(
+                Var(
+                  IdentDesignator(
+                   x
+                  ) [IdentDesignator]
+                ) [Var]
+              ) [SingleFactorTerm]
+            ) [TermExpr]
+          ) [PrintStatement]
+        ) [NoLabelStatement]
+      ) [StmtList]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  09:45:24,753 - ===================================
+INFO  09:45:24,760 - Deklarisana promjenljiva x na liniji 2
+ERROR 09:45:24,760 - Greska na liniji 2 : nekompatibilni tipovi u deklaraciji konstante.
+INFO  09:45:24,760 - Obradjuje se funkcija main na liniji 5
+INFO  09:45:24,760 - ===================================
+ERROR 09:45:24,761 - Parsiranje nije uspjesno zavrseno!

@@ -1,0 +1,235 @@
+INFO  15:56:13,064 - Compiling source file: C:\Users\Korisnik\Desktop\Programski prevodioci\Uradjeno\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  15:56:13,117 - #2 program
+INFO  15:56:13,117 - #49 test301
+INFO  15:56:13,117 - #6 const
+INFO  15:56:13,118 - #49 int
+INFO  15:56:13,118 - #49 nula
+INFO  15:56:13,119 - #33 =
+INFO  15:56:13,119 - #48 0
+INFO  15:56:13,120 - #36 ;
+INFO  15:56:13,120 - #6 const
+INFO  15:56:13,120 - #49 int
+INFO  15:56:13,120 - #49 jedan
+INFO  15:56:13,120 - #33 =
+INFO  15:56:13,120 - #48 1
+INFO  15:56:13,121 - #36 ;
+INFO  15:56:13,121 - #6 const
+INFO  15:56:13,121 - #49 int
+INFO  15:56:13,121 - #49 pet
+INFO  15:56:13,121 - #33 =
+INFO  15:56:13,121 - #48 5
+INFO  15:56:13,121 - #36 ;
+INFO  15:56:13,129 - #49 int
+INFO  15:56:13,129 - #49 niz
+INFO  15:56:13,130 - #42 [
+INFO  15:56:13,130 - #43 ]
+INFO  15:56:13,130 - #36 ;
+INFO  15:56:13,130 - #49 char
+INFO  15:56:13,131 - #49 nizch
+INFO  15:56:13,131 - #42 [
+INFO  15:56:13,131 - #43 ]
+INFO  15:56:13,131 - #36 ;
+INFO  15:56:13,131 - #49 int
+INFO  15:56:13,131 - #49 niztest
+INFO  15:56:13,131 - #42 [
+INFO  15:56:13,131 - #43 ]
+INFO  15:56:13,131 - #36 ;
+INFO  15:56:13,131 - #44 {
+INFO  15:56:13,131 - #13 void
+INFO  15:56:13,132 - #49 main
+INFO  15:56:13,133 - #40 (
+INFO  15:56:13,134 - #41 )
+INFO  15:56:13,134 - #49 int
+INFO  15:56:13,135 - #49 bodovi
+INFO  15:56:13,135 - #36 ;
+INFO  15:56:13,135 - #44 {
+INFO  15:56:13,135 - #11 read
+INFO  15:56:13,135 - #40 (
+INFO  15:56:13,136 - #49 bodovi
+INFO  15:56:13,136 - #41 )
+INFO  15:56:13,136 - #36 ;
+INFO  15:56:13,136 - #10 print
+INFO  15:56:13,136 - #40 (
+INFO  15:56:13,136 - #49 bodovi
+INFO  15:56:13,136 - #41 )
+INFO  15:56:13,136 - #36 ;
+INFO  15:56:13,136 - #45 }
+INFO  15:56:13,136 - #45 }
+INFO  15:56:13,138 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  Decl(
+    Decl(
+      Decl(
+        Decl(
+          Decl(
+            Decl(
+              DeclarationsDerived1(
+              ) [DeclarationsDerived1]
+              ConstDec(
+                ConstDeclar(
+                  ConstType(
+                    Type(
+                     int
+                    ) [Type]
+                  ) [ConstType]
+                  SingleConstDecl(
+                    ConstDNum(
+                     nula
+                      Assignop(
+                      ) [Assignop]
+                     0
+                    ) [ConstDNum]
+                  ) [SingleConstDecl]
+                ) [ConstDeclar]
+              ) [ConstDec]
+            ) [Decl]
+            ConstDec(
+              ConstDeclar(
+                ConstType(
+                  Type(
+                   int
+                  ) [Type]
+                ) [ConstType]
+                SingleConstDecl(
+                  ConstDNum(
+                   jedan
+                    Assignop(
+                    ) [Assignop]
+                   1
+                  ) [ConstDNum]
+                ) [SingleConstDecl]
+              ) [ConstDeclar]
+            ) [ConstDec]
+          ) [Decl]
+          ConstDec(
+            ConstDeclar(
+              ConstType(
+                Type(
+                 int
+                ) [Type]
+              ) [ConstType]
+              SingleConstDecl(
+                ConstDNum(
+                 pet
+                  Assignop(
+                  ) [Assignop]
+                 5
+                ) [ConstDNum]
+              ) [SingleConstDecl]
+            ) [ConstDeclar]
+          ) [ConstDec]
+        ) [Decl]
+        VarDec(
+          VarDeclara(
+            VarType(
+              Type(
+               int
+              ) [Type]
+            ) [VarType]
+            NoVarCommaDecl(
+            ) [NoVarCommaDecl]
+            VarArrayD(
+             niz
+            ) [VarArrayD]
+          ) [VarDeclara]
+        ) [VarDec]
+      ) [Decl]
+      VarDec(
+        VarDeclara(
+          VarType(
+            Type(
+             char
+            ) [Type]
+          ) [VarType]
+          NoVarCommaDecl(
+          ) [NoVarCommaDecl]
+          VarArrayD(
+           nizch
+          ) [VarArrayD]
+        ) [VarDeclara]
+      ) [VarDec]
+    ) [Decl]
+    VarDec(
+      VarDeclara(
+        VarType(
+          Type(
+           int
+          ) [Type]
+        ) [VarType]
+        NoVarCommaDecl(
+        ) [NoVarCommaDecl]
+        VarArrayD(
+         niztest
+        ) [VarArrayD]
+      ) [VarDeclara]
+    ) [VarDec]
+  ) [Decl]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        VoidReturn(
+        ) [VoidReturn]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      VarDeclarations(
+        NoVarDecl(
+        ) [NoVarDecl]
+        VarDeclara(
+          VarType(
+            Type(
+             int
+            ) [Type]
+          ) [VarType]
+          NoVarCommaDecl(
+          ) [NoVarCommaDecl]
+          VarDeclaration(
+           bodovi
+          ) [VarDeclaration]
+        ) [VarDeclara]
+      ) [VarDeclarations]
+      StmtList(
+        StmtList(
+          NoStmt(
+          ) [NoStmt]
+          NoLabelStatement(
+            ReadStatement(
+              IdentDesignator(
+               bodovi
+              ) [IdentDesignator]
+            ) [ReadStatement]
+          ) [NoLabelStatement]
+        ) [StmtList]
+        NoLabelStatement(
+          PrintStatement(
+            TermExpr(
+              SingleFactorTerm(
+                Var(
+                  IdentDesignator(
+                   bodovi
+                  ) [IdentDesignator]
+                ) [Var]
+              ) [SingleFactorTerm]
+            ) [TermExpr]
+          ) [PrintStatement]
+        ) [NoLabelStatement]
+      ) [StmtList]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:56:13,139 - ===================================
+INFO  15:56:13,145 - Deklarisana konstanta nula na liniji 5
+INFO  15:56:13,146 - Deklarisana konstanta jedan na liniji 6
+INFO  15:56:13,146 - Deklarisana konstanta pet na liniji 7
+INFO  15:56:13,146 - Deklarisana promjenljiva niz na liniji 9
+INFO  15:56:13,146 - Deklarisana promjenljiva nizch na liniji 10
+INFO  15:56:13,146 - Deklarisana promjenljiva niztest na liniji 11
+INFO  15:56:13,146 - Obradjuje se funkcija main na liniji 14
+INFO  15:56:13,146 - Deklarisana promjenljiva bodovi na liniji 15
+INFO  15:56:13,147 - ===================================
+INFO  15:56:13,157 - Parsiranje uspjesno zavrseno!

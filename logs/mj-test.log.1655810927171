@@ -1,0 +1,85 @@
+INFO  13:28:09,488 - Compiling source file: C:\Users\Korisnik\Desktop\Programski prevodioci\Uradjeno\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  13:28:09,531 - #2 program
+INFO  13:28:09,531 - #49 MJProgram
+INFO  13:28:09,531 - #6 const
+INFO  13:28:09,532 - #49 int
+INFO  13:28:09,532 - #49 x
+INFO  13:28:09,533 - #33 =
+INFO  13:28:09,533 - #48 2
+INFO  13:28:09,534 - #36 ;
+INFO  13:28:09,534 - #44 {
+INFO  13:28:09,534 - #13 void
+INFO  13:28:09,535 - #49 main
+INFO  13:28:09,535 - #40 (
+INFO  13:28:09,536 - #41 )
+INFO  13:28:09,536 - #44 {
+INFO  13:28:09,537 - #10 print
+INFO  13:28:09,537 - #40 (
+INFO  13:28:09,537 - #49 x
+INFO  13:28:09,538 - #41 )
+INFO  13:28:09,538 - #36 ;
+INFO  13:28:09,538 - #45 }
+INFO  13:28:09,547 - #45 }
+INFO  13:28:09,550 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  Decl(
+    DeclarationsDerived1(
+    ) [DeclarationsDerived1]
+    ConstDec(
+      ConstDeclar(
+        ConstType(
+          Type(
+           int
+          ) [Type]
+        ) [ConstType]
+        SingleConstDecl(
+          ConstDNum(
+           x
+            Assignop(
+            ) [Assignop]
+           2
+          ) [ConstDNum]
+        ) [SingleConstDecl]
+      ) [ConstDeclar]
+    ) [ConstDec]
+  ) [Decl]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        VoidReturn(
+        ) [VoidReturn]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      StmtList(
+        NoStmt(
+        ) [NoStmt]
+        NoLabelStatement(
+          PrintStatement(
+            TermExpr(
+              SingleFactorTerm(
+                Var(
+                  IdentDesignator(
+                   x
+                  ) [IdentDesignator]
+                ) [Var]
+              ) [SingleFactorTerm]
+            ) [TermExpr]
+          ) [PrintStatement]
+        ) [NoLabelStatement]
+      ) [StmtList]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  13:28:09,550 - ===================================
+INFO  13:28:09,558 - Deklarisana konstanta x na liniji 2
+INFO  13:28:09,559 - Obradjuje se funkcija main na liniji 5
+INFO  13:28:09,559 - ===================================
+INFO  13:28:09,576 - Parsiranje uspjesno zavrseno!

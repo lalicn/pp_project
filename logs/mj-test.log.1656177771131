@@ -1,0 +1,257 @@
+INFO  19:22:37,494 - Compiling source file: C:\Users\Korisnik\Desktop\Programski prevodioci\Uradjeno\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  19:22:37,545 - #2 program
+INFO  19:22:37,545 - #50 test301
+INFO  19:22:37,546 - #6 const
+INFO  19:22:37,547 - #50 int
+INFO  19:22:37,547 - #50 nula
+INFO  19:22:37,549 - #34 =
+INFO  19:22:37,549 - #49 0
+INFO  19:22:37,549 - #37 ;
+INFO  19:22:37,550 - #6 const
+INFO  19:22:37,550 - #50 int
+INFO  19:22:37,550 - #50 jedan
+INFO  19:22:37,550 - #34 =
+INFO  19:22:37,551 - #49 1
+INFO  19:22:37,551 - #37 ;
+INFO  19:22:37,551 - #6 const
+INFO  19:22:37,551 - #50 int
+INFO  19:22:37,551 - #50 tri
+INFO  19:22:37,551 - #34 =
+INFO  19:22:37,551 - #49 3
+INFO  19:22:37,551 - #37 ;
+INFO  19:22:37,551 - #6 const
+INFO  19:22:37,552 - #50 int
+INFO  19:22:37,552 - #50 pet
+INFO  19:22:37,552 - #34 =
+INFO  19:22:37,552 - #49 5
+INFO  19:22:37,552 - #37 ;
+INFO  19:22:37,552 - #50 int
+INFO  19:22:37,552 - #50 niz
+INFO  19:22:37,553 - #43 [
+INFO  19:22:37,553 - #44 ]
+INFO  19:22:37,553 - #37 ;
+INFO  19:22:37,553 - #50 char
+INFO  19:22:37,554 - #50 nizch
+INFO  19:22:37,554 - #43 [
+INFO  19:22:37,554 - #44 ]
+INFO  19:22:37,554 - #37 ;
+INFO  19:22:37,554 - #50 char
+INFO  19:22:37,554 - #50 bodovi
+INFO  19:22:37,554 - #37 ;
+INFO  19:22:37,554 - #45 {
+INFO  19:22:37,554 - #13 void
+INFO  19:22:37,555 - #50 main
+INFO  19:22:37,555 - #41 (
+INFO  19:22:37,556 - #42 )
+INFO  19:22:37,556 - #50 int
+INFO  19:22:37,556 - #50 bodovi
+INFO  19:22:37,557 - #37 ;
+INFO  19:22:37,557 - #50 bool
+INFO  19:22:37,557 - #50 bt
+INFO  19:22:37,557 - #37 ;
+INFO  19:22:37,557 - #45 {
+INFO  19:22:37,557 - #11 read
+INFO  19:22:37,557 - #41 (
+INFO  19:22:37,557 - #50 niz
+INFO  19:22:37,557 - #42 )
+INFO  19:22:37,558 - #37 ;
+INFO  19:22:37,558 - #46 }
+INFO  19:22:37,558 - #46 }
+INFO  19:22:37,560 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  Decl(
+    Decl(
+      Decl(
+        Decl(
+          Decl(
+            Decl(
+              Decl(
+                DeclarationsDerived1(
+                ) [DeclarationsDerived1]
+                ConstDec(
+                  ConstDeclar(
+                    ConstType(
+                      Type(
+                       int
+                      ) [Type]
+                    ) [ConstType]
+                    SingleConstDecl(
+                      ConstDNum(
+                       nula
+                        Assignop(
+                        ) [Assignop]
+                       0
+                      ) [ConstDNum]
+                    ) [SingleConstDecl]
+                  ) [ConstDeclar]
+                ) [ConstDec]
+              ) [Decl]
+              ConstDec(
+                ConstDeclar(
+                  ConstType(
+                    Type(
+                     int
+                    ) [Type]
+                  ) [ConstType]
+                  SingleConstDecl(
+                    ConstDNum(
+                     jedan
+                      Assignop(
+                      ) [Assignop]
+                     1
+                    ) [ConstDNum]
+                  ) [SingleConstDecl]
+                ) [ConstDeclar]
+              ) [ConstDec]
+            ) [Decl]
+            ConstDec(
+              ConstDeclar(
+                ConstType(
+                  Type(
+                   int
+                  ) [Type]
+                ) [ConstType]
+                SingleConstDecl(
+                  ConstDNum(
+                   tri
+                    Assignop(
+                    ) [Assignop]
+                   3
+                  ) [ConstDNum]
+                ) [SingleConstDecl]
+              ) [ConstDeclar]
+            ) [ConstDec]
+          ) [Decl]
+          ConstDec(
+            ConstDeclar(
+              ConstType(
+                Type(
+                 int
+                ) [Type]
+              ) [ConstType]
+              SingleConstDecl(
+                ConstDNum(
+                 pet
+                  Assignop(
+                  ) [Assignop]
+                 5
+                ) [ConstDNum]
+              ) [SingleConstDecl]
+            ) [ConstDeclar]
+          ) [ConstDec]
+        ) [Decl]
+        VarDec(
+          VarDeclara(
+            VarType(
+              Type(
+               int
+              ) [Type]
+            ) [VarType]
+            NoVarCommaDecl(
+            ) [NoVarCommaDecl]
+            VarArrayD(
+             niz
+            ) [VarArrayD]
+          ) [VarDeclara]
+        ) [VarDec]
+      ) [Decl]
+      VarDec(
+        VarDeclara(
+          VarType(
+            Type(
+             char
+            ) [Type]
+          ) [VarType]
+          NoVarCommaDecl(
+          ) [NoVarCommaDecl]
+          VarArrayD(
+           nizch
+          ) [VarArrayD]
+        ) [VarDeclara]
+      ) [VarDec]
+    ) [Decl]
+    VarDec(
+      VarDeclara(
+        VarType(
+          Type(
+           char
+          ) [Type]
+        ) [VarType]
+        NoVarCommaDecl(
+        ) [NoVarCommaDecl]
+        VarDeclaration(
+         bodovi
+        ) [VarDeclaration]
+      ) [VarDeclara]
+    ) [VarDec]
+  ) [Decl]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        VoidReturn(
+        ) [VoidReturn]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      VarDeclarations(
+        VarDeclarations(
+          NoVarDecl(
+          ) [NoVarDecl]
+          VarDeclara(
+            VarType(
+              Type(
+               int
+              ) [Type]
+            ) [VarType]
+            NoVarCommaDecl(
+            ) [NoVarCommaDecl]
+            VarDeclaration(
+             bodovi
+            ) [VarDeclaration]
+          ) [VarDeclara]
+        ) [VarDeclarations]
+        VarDeclara(
+          VarType(
+            Type(
+             bool
+            ) [Type]
+          ) [VarType]
+          NoVarCommaDecl(
+          ) [NoVarCommaDecl]
+          VarDeclaration(
+           bt
+          ) [VarDeclaration]
+        ) [VarDeclara]
+      ) [VarDeclarations]
+      StmtList(
+        NoStmt(
+        ) [NoStmt]
+        NoLabelStatement(
+          ReadStatement(
+            IdentDesignator(
+             niz
+            ) [IdentDesignator]
+          ) [ReadStatement]
+        ) [NoLabelStatement]
+      ) [StmtList]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  19:22:37,560 - ===================================
+INFO  19:22:37,578 - Deklarisana konstanta nula: Con nula: int, 0, 0  na liniji 5
+INFO  19:22:37,578 - Deklarisana konstanta jedan: Con jedan: int, 1, 0  na liniji 6
+INFO  19:22:37,579 - Deklarisana konstanta tri: Con tri: int, 3, 0  na liniji 7
+INFO  19:22:37,579 - Deklarisana konstanta pet: Con pet: int, 5, 0  na liniji 8
+INFO  19:22:37,579 - Deklarisan niz niz: Var niz: Arr of int, 0, 0  na liniji 10
+INFO  19:22:37,579 - Deklarisan niz nizch: Var nizch: Arr of char, 1, 0  na liniji 11
+INFO  19:22:37,579 - Deklarisana promjenljiva bodovi: Var bodovi: char, 2, 0  na liniji 12
+INFO  19:22:37,579 - Deklarisana promjenljiva bodovi: Var bodovi: int, 0, 1  na liniji 16
+INFO  19:22:37,579 - Deklarisana promjenljiva bt: Var bt: , 1, 1  na liniji 17
+ERROR 19:22:37,579 - Semanticka greska na liniji 19; Operand instrukcije READ mora biti char, int ili bool tipa
+INFO  19:22:37,579 - ===================================
+ERROR 19:22:37,580 - Parsiranje nije uspjesno zavrseno!

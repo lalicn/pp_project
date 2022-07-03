@@ -1,0 +1,217 @@
+INFO  15:29:55,932 - Compiling source file: C:\Users\Korisnik\Desktop\Programski prevodioci\Uradjeno\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  15:29:55,985 - #2 program
+INFO  15:29:55,985 - #49 MJProgram
+INFO  15:29:55,985 - #49 int
+INFO  15:29:55,986 - #49 x
+INFO  15:29:55,987 - #36 ;
+INFO  15:29:55,987 - #49 int
+INFO  15:29:55,988 - #49 y
+INFO  15:29:55,988 - #36 ;
+INFO  15:29:55,988 - #44 {
+INFO  15:29:55,988 - #49 int
+INFO  15:29:55,989 - #49 k
+INFO  15:29:55,989 - #40 (
+INFO  15:29:55,990 - #41 )
+INFO  15:29:55,990 - #49 int
+INFO  15:29:55,991 - #49 c
+INFO  15:29:55,991 - #36 ;
+INFO  15:29:55,991 - #44 {
+INFO  15:29:55,991 - #49 c
+INFO  15:29:55,992 - #33 =
+INFO  15:29:55,992 - #48 2
+INFO  15:29:55,993 - #36 ;
+INFO  15:29:55,993 - #12 return
+INFO  15:29:55,993 - #49 c
+INFO  15:29:55,994 - #20 +
+INFO  15:29:55,994 - #48 2
+INFO  15:29:55,995 - #36 ;
+INFO  15:29:55,995 - #45 }
+INFO  15:29:55,996 - #49 int
+INFO  15:29:55,997 - #49 main
+INFO  15:29:55,997 - #40 (
+INFO  15:29:55,997 - #41 )
+INFO  15:29:55,997 - #44 {
+INFO  15:29:55,997 - #49 x
+INFO  15:29:55,997 - #33 =
+INFO  15:29:55,997 - #48 3
+INFO  15:29:55,997 - #36 ;
+INFO  15:29:55,997 - #10 print
+INFO  15:29:55,997 - #40 (
+INFO  15:29:55,997 - #49 x
+INFO  15:29:55,997 - #41 )
+INFO  15:29:55,997 - #36 ;
+INFO  15:29:55,997 - #45 }
+INFO  15:29:55,998 - #45 }
+INFO  15:29:55,999 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  Decl(
+    Decl(
+      DeclarationsDerived1(
+      ) [DeclarationsDerived1]
+      VarDec(
+        VarDeclara(
+          Type(
+           int
+          ) [Type]
+          NoVarCommaDecl(
+          ) [NoVarCommaDecl]
+          VarDeclaration(
+           x
+          ) [VarDeclaration]
+        ) [VarDeclara]
+      ) [VarDec]
+    ) [Decl]
+    VarDec(
+      VarDeclara(
+        Type(
+         int
+        ) [Type]
+        NoVarCommaDecl(
+        ) [NoVarCommaDecl]
+        VarDeclaration(
+         y
+        ) [VarDeclaration]
+      ) [VarDeclara]
+    ) [VarDec]
+  ) [Decl]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDecl(
+        MethodTypeName(
+          TypeReturn(
+            Type(
+             int
+            ) [Type]
+          ) [TypeReturn]
+         k
+        ) [MethodTypeName]
+        NoFormParam(
+        ) [NoFormParam]
+        VarDeclarations(
+          NoVarDecl(
+          ) [NoVarDecl]
+          VarDeclara(
+            Type(
+             int
+            ) [Type]
+            NoVarCommaDecl(
+            ) [NoVarCommaDecl]
+            VarDeclaration(
+             c
+            ) [VarDeclaration]
+          ) [VarDeclara]
+        ) [VarDeclarations]
+        StmtList(
+          StmtList(
+            NoStmt(
+            ) [NoStmt]
+            NoLabelStatement(
+              DesignStatement(
+                AssignopDesignator(
+                  IdentDesignator(
+                   c
+                  ) [IdentDesignator]
+                  Assignop(
+                  ) [Assignop]
+                  TermExpr(
+                    SingleFactorTerm(
+                      NumberConst(
+                       2
+                      ) [NumberConst]
+                    ) [SingleFactorTerm]
+                  ) [TermExpr]
+                ) [AssignopDesignator]
+              ) [DesignStatement]
+            ) [NoLabelStatement]
+          ) [StmtList]
+          NoLabelStatement(
+            ReturnExprStatement(
+              AddopExpr(
+                TermExpr(
+                  SingleFactorTerm(
+                    Var(
+                      IdentDesignator(
+                       c
+                      ) [IdentDesignator]
+                    ) [Var]
+                  ) [SingleFactorTerm]
+                ) [TermExpr]
+                Plus(
+                ) [Plus]
+                SingleFactorTerm(
+                  NumberConst(
+                   2
+                  ) [NumberConst]
+                ) [SingleFactorTerm]
+              ) [AddopExpr]
+            ) [ReturnExprStatement]
+          ) [NoLabelStatement]
+        ) [StmtList]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        TypeReturn(
+          Type(
+           int
+          ) [Type]
+        ) [TypeReturn]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      StmtList(
+        StmtList(
+          NoStmt(
+          ) [NoStmt]
+          NoLabelStatement(
+            DesignStatement(
+              AssignopDesignator(
+                IdentDesignator(
+                 x
+                ) [IdentDesignator]
+                Assignop(
+                ) [Assignop]
+                TermExpr(
+                  SingleFactorTerm(
+                    NumberConst(
+                     3
+                    ) [NumberConst]
+                  ) [SingleFactorTerm]
+                ) [TermExpr]
+              ) [AssignopDesignator]
+            ) [DesignStatement]
+          ) [NoLabelStatement]
+        ) [StmtList]
+        NoLabelStatement(
+          PrintStatement(
+            TermExpr(
+              SingleFactorTerm(
+                Var(
+                  IdentDesignator(
+                   x
+                  ) [IdentDesignator]
+                ) [Var]
+              ) [SingleFactorTerm]
+            ) [TermExpr]
+          ) [PrintStatement]
+        ) [NoLabelStatement]
+      ) [StmtList]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:29:56,000 - ===================================
+INFO  15:29:56,009 - Deklarisana promjenljiva x na liniji 2
+INFO  15:29:56,009 - Deklarisana promjenljiva y na liniji 2
+INFO  15:29:56,009 - Obradjuje se funkcija k na liniji 4
+INFO  15:29:56,009 - Deklarisana promjenljiva c na liniji 4
+INFO  15:29:56,009 - Obradjuje se funkcija main na liniji 9
+ERROR 15:29:56,010 - Semanticka greska na liniji 12; Operand instrukcije PRINT mora biti char ili int tipa
+INFO  15:29:56,010 - ===================================
+ERROR 15:29:56,010 - Parsiranje nije uspjesno zavrseno!

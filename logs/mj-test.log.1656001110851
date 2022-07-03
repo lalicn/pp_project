@@ -1,0 +1,93 @@
+INFO  18:16:56,014 - Compiling source file: C:\Users\Korisnik\Desktop\Programski prevodioci\Uradjeno\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  18:16:56,065 - #2 program
+INFO  18:16:56,065 - #50 test301
+INFO  18:16:56,065 - #45 {
+INFO  18:16:56,066 - #13 void
+INFO  18:16:56,066 - #50 main
+INFO  18:16:56,067 - #41 (
+INFO  18:16:56,067 - #42 )
+INFO  18:16:56,068 - #50 int
+INFO  18:16:56,068 - #50 bodovi
+INFO  18:16:56,070 - #37 ;
+INFO  18:16:56,070 - #45 {
+INFO  18:16:56,070 - #11 read
+INFO  18:16:56,071 - #41 (
+INFO  18:16:56,071 - #50 bodovi
+INFO  18:16:56,071 - #42 )
+INFO  18:16:56,071 - #37 ;
+INFO  18:16:56,071 - #10 print
+INFO  18:16:56,071 - #41 (
+INFO  18:16:56,072 - #50 bodovi
+INFO  18:16:56,080 - #42 )
+INFO  18:16:56,080 - #37 ;
+INFO  18:16:56,080 - #46 }
+INFO  18:16:56,080 - #46 }
+INFO  18:16:56,083 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  DeclarationsDerived1(
+  ) [DeclarationsDerived1]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        VoidReturn(
+        ) [VoidReturn]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      VarDeclarations(
+        NoVarDecl(
+        ) [NoVarDecl]
+        VarDeclara(
+          VarType(
+            Type(
+             int
+            ) [Type]
+          ) [VarType]
+          NoVarCommaDecl(
+          ) [NoVarCommaDecl]
+          VarDeclaration(
+           bodovi
+          ) [VarDeclaration]
+        ) [VarDeclara]
+      ) [VarDeclarations]
+      StmtList(
+        StmtList(
+          NoStmt(
+          ) [NoStmt]
+          NoLabelStatement(
+            ReadStatement(
+              IdentDesignator(
+               bodovi
+              ) [IdentDesignator]
+            ) [ReadStatement]
+          ) [NoLabelStatement]
+        ) [StmtList]
+        NoLabelStatement(
+          PrintStatement(
+            TermExpr(
+              SingleFactorTerm(
+                SingleBaseExpFactor(
+                  Var(
+                    IdentDesignator(
+                     bodovi
+                    ) [IdentDesignator]
+                  ) [Var]
+                ) [SingleBaseExpFactor]
+              ) [SingleFactorTerm]
+            ) [TermExpr]
+          ) [PrintStatement]
+        ) [NoLabelStatement]
+      ) [StmtList]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:16:56,083 - ===================================
+INFO  18:16:56,099 - Obradjuje se funkcija main na liniji 6
+INFO  18:16:56,099 - Deklarisana promjenljiva bodovi na liniji 7
+INFO  18:16:56,099 - ===================================
+INFO  18:16:56,104 - Parsiranje uspjesno zavrseno!

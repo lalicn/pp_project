@@ -1,0 +1,52 @@
+INFO  18:22:16,103 - Compiling source file: C:\Users\Korisnik\Desktop\Programski prevodioci\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  18:22:16,188 - #2 program
+INFO  18:22:16,189 - #49 MJProgram
+INFO  18:22:16,189 - #49 int
+INFO  18:22:16,190 - #49 x
+INFO  18:22:16,191 - #42 [
+INFO  18:22:16,191 - #38 ,
+ERROR 18:22:16,191 - 
+Sintaksna greska na liniji 2
+INFO  18:22:16,191 - #49 s
+INFO  18:22:16,191 - #38 ,
+INFO  18:22:16,191 - #49 y
+ERROR 18:22:16,192 - Izvrsen oporavak do, u liniji 2
+INFO  18:22:16,193 - #38 ,
+INFO  18:22:16,193 - #49 a
+INFO  18:22:16,193 - #44 {
+ERROR 18:22:16,193 - 
+Sintaksna greska na liniji 2
+INFO  18:22:16,194 - #38 ,
+INFO  18:22:16,194 - #49 p
+INFO  18:22:16,194 - #38 ,
+INFO  18:22:16,194 - #49 q
+ERROR 18:22:16,194 - Izvrsen oporavak do, u liniji 2
+INFO  18:22:16,194 - #44 {
+ERROR 18:22:16,194 - 
+Sintaksna greska na liniji 2
+INFO  18:22:16,195 - #36 ;
+INFO  18:22:16,195 - #44 {
+INFO  18:22:16,195 - #49 int
+INFO  18:22:16,195 - #49 main
+INFO  18:22:16,195 - #40 (
+INFO  18:22:16,195 - #41 )
+INFO  18:22:16,195 - #44 {
+INFO  18:22:16,196 - #10 print
+INFO  18:22:16,196 - #40 (
+INFO  18:22:16,196 - #48 1
+INFO  18:22:16,196 - #41 )
+INFO  18:22:16,196 - #36 ;
+INFO  18:22:16,196 - #49 x
+INFO  18:22:16,196 - #33 =
+INFO  18:22:16,196 - #49 y
+INFO  18:22:16,197 - #20 +
+INFO  18:22:16,197 - #48 5
+INFO  18:22:16,197 - #36 ;
+INFO  18:22:16,197 - #10 print
+INFO  18:22:16,197 - #40 (
+INFO  18:22:16,197 - #48 2
+INFO  18:22:16,197 - #41 )
+INFO  18:22:16,197 - #36 ;
+INFO  18:22:16,198 - #45 }
+INFO  18:22:16,198 - #45 }
+ERROR 18:22:16,198 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 13

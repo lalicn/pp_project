@@ -1,0 +1,293 @@
+INFO  19:24:29,391 - Compiling source file: C:\Users\Korisnik\Desktop\Programski prevodioci\Uradjeno\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  19:24:29,438 - #2 program
+INFO  19:24:29,439 - #50 test301
+INFO  19:24:29,439 - #6 const
+INFO  19:24:29,440 - #50 int
+INFO  19:24:29,440 - #50 nula
+INFO  19:24:29,441 - #34 =
+INFO  19:24:29,441 - #49 0
+INFO  19:24:29,442 - #37 ;
+INFO  19:24:29,442 - #6 const
+INFO  19:24:29,442 - #50 int
+INFO  19:24:29,442 - #50 jedan
+INFO  19:24:29,442 - #34 =
+INFO  19:24:29,442 - #49 1
+INFO  19:24:29,442 - #37 ;
+INFO  19:24:29,443 - #6 const
+INFO  19:24:29,443 - #50 int
+INFO  19:24:29,443 - #50 tri
+INFO  19:24:29,443 - #34 =
+INFO  19:24:29,443 - #49 3
+INFO  19:24:29,443 - #37 ;
+INFO  19:24:29,445 - #6 const
+INFO  19:24:29,445 - #50 int
+INFO  19:24:29,445 - #50 pet
+INFO  19:24:29,445 - #34 =
+INFO  19:24:29,445 - #49 5
+INFO  19:24:29,445 - #37 ;
+INFO  19:24:29,445 - #50 int
+INFO  19:24:29,445 - #50 niz
+INFO  19:24:29,446 - #43 [
+INFO  19:24:29,446 - #44 ]
+INFO  19:24:29,446 - #37 ;
+INFO  19:24:29,446 - #50 char
+INFO  19:24:29,447 - #50 nizch
+INFO  19:24:29,447 - #43 [
+INFO  19:24:29,447 - #44 ]
+INFO  19:24:29,447 - #37 ;
+INFO  19:24:29,447 - #50 char
+INFO  19:24:29,447 - #50 bodovi
+INFO  19:24:29,447 - #37 ;
+INFO  19:24:29,447 - #45 {
+INFO  19:24:29,448 - #13 void
+INFO  19:24:29,448 - #50 main
+INFO  19:24:29,449 - #41 (
+INFO  19:24:29,450 - #42 )
+INFO  19:24:29,450 - #50 int
+INFO  19:24:29,451 - #50 bodovi
+INFO  19:24:29,451 - #37 ;
+INFO  19:24:29,451 - #50 bool
+INFO  19:24:29,452 - #50 bt
+INFO  19:24:29,452 - #37 ;
+INFO  19:24:29,452 - #45 {
+INFO  19:24:29,452 - #50 bodovi
+INFO  19:24:29,452 - #34 =
+INFO  19:24:29,452 - #21 -
+INFO  19:24:29,452 - #48 a
+INFO  19:24:29,452 - #37 ;
+INFO  19:24:29,453 - #10 print
+INFO  19:24:29,453 - #41 (
+INFO  19:24:29,453 - #50 bodovi
+INFO  19:24:29,453 - #42 )
+INFO  19:24:29,453 - #37 ;
+INFO  19:24:29,453 - #46 }
+INFO  19:24:29,454 - #46 }
+INFO  19:24:29,456 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  Decl(
+    Decl(
+      Decl(
+        Decl(
+          Decl(
+            Decl(
+              Decl(
+                DeclarationsDerived1(
+                ) [DeclarationsDerived1]
+                ConstDec(
+                  ConstDeclar(
+                    ConstType(
+                      Type(
+                       int
+                      ) [Type]
+                    ) [ConstType]
+                    SingleConstDecl(
+                      ConstDNum(
+                       nula
+                        Assignop(
+                        ) [Assignop]
+                       0
+                      ) [ConstDNum]
+                    ) [SingleConstDecl]
+                  ) [ConstDeclar]
+                ) [ConstDec]
+              ) [Decl]
+              ConstDec(
+                ConstDeclar(
+                  ConstType(
+                    Type(
+                     int
+                    ) [Type]
+                  ) [ConstType]
+                  SingleConstDecl(
+                    ConstDNum(
+                     jedan
+                      Assignop(
+                      ) [Assignop]
+                     1
+                    ) [ConstDNum]
+                  ) [SingleConstDecl]
+                ) [ConstDeclar]
+              ) [ConstDec]
+            ) [Decl]
+            ConstDec(
+              ConstDeclar(
+                ConstType(
+                  Type(
+                   int
+                  ) [Type]
+                ) [ConstType]
+                SingleConstDecl(
+                  ConstDNum(
+                   tri
+                    Assignop(
+                    ) [Assignop]
+                   3
+                  ) [ConstDNum]
+                ) [SingleConstDecl]
+              ) [ConstDeclar]
+            ) [ConstDec]
+          ) [Decl]
+          ConstDec(
+            ConstDeclar(
+              ConstType(
+                Type(
+                 int
+                ) [Type]
+              ) [ConstType]
+              SingleConstDecl(
+                ConstDNum(
+                 pet
+                  Assignop(
+                  ) [Assignop]
+                 5
+                ) [ConstDNum]
+              ) [SingleConstDecl]
+            ) [ConstDeclar]
+          ) [ConstDec]
+        ) [Decl]
+        VarDec(
+          VarDeclara(
+            VarType(
+              Type(
+               int
+              ) [Type]
+            ) [VarType]
+            NoVarCommaDecl(
+            ) [NoVarCommaDecl]
+            VarArrayD(
+             niz
+            ) [VarArrayD]
+          ) [VarDeclara]
+        ) [VarDec]
+      ) [Decl]
+      VarDec(
+        VarDeclara(
+          VarType(
+            Type(
+             char
+            ) [Type]
+          ) [VarType]
+          NoVarCommaDecl(
+          ) [NoVarCommaDecl]
+          VarArrayD(
+           nizch
+          ) [VarArrayD]
+        ) [VarDeclara]
+      ) [VarDec]
+    ) [Decl]
+    VarDec(
+      VarDeclara(
+        VarType(
+          Type(
+           char
+          ) [Type]
+        ) [VarType]
+        NoVarCommaDecl(
+        ) [NoVarCommaDecl]
+        VarDeclaration(
+         bodovi
+        ) [VarDeclaration]
+      ) [VarDeclara]
+    ) [VarDec]
+  ) [Decl]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        VoidReturn(
+        ) [VoidReturn]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      VarDeclarations(
+        VarDeclarations(
+          NoVarDecl(
+          ) [NoVarDecl]
+          VarDeclara(
+            VarType(
+              Type(
+               int
+              ) [Type]
+            ) [VarType]
+            NoVarCommaDecl(
+            ) [NoVarCommaDecl]
+            VarDeclaration(
+             bodovi
+            ) [VarDeclaration]
+          ) [VarDeclara]
+        ) [VarDeclarations]
+        VarDeclara(
+          VarType(
+            Type(
+             bool
+            ) [Type]
+          ) [VarType]
+          NoVarCommaDecl(
+          ) [NoVarCommaDecl]
+          VarDeclaration(
+           bt
+          ) [VarDeclaration]
+        ) [VarDeclara]
+      ) [VarDeclarations]
+      StmtList(
+        StmtList(
+          NoStmt(
+          ) [NoStmt]
+          NoLabelStatement(
+            DesignStatement(
+              AssignopDesignator(
+                IdentDesignator(
+                 bodovi
+                ) [IdentDesignator]
+                Assignop(
+                ) [Assignop]
+                NegativeTermExpr(
+                  SingleFactorTerm(
+                    SingleBaseExpFactor(
+                      CharConst(
+                       a
+                      ) [CharConst]
+                    ) [SingleBaseExpFactor]
+                  ) [SingleFactorTerm]
+                ) [NegativeTermExpr]
+              ) [AssignopDesignator]
+            ) [DesignStatement]
+          ) [NoLabelStatement]
+        ) [StmtList]
+        NoLabelStatement(
+          PrintStatement(
+            TermExpr(
+              SingleFactorTerm(
+                SingleBaseExpFactor(
+                  Var(
+                    IdentDesignator(
+                     bodovi
+                    ) [IdentDesignator]
+                  ) [Var]
+                ) [SingleBaseExpFactor]
+              ) [SingleFactorTerm]
+            ) [TermExpr]
+          ) [PrintStatement]
+        ) [NoLabelStatement]
+      ) [StmtList]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  19:24:29,457 - ===================================
+INFO  19:24:29,473 - Deklarisana konstanta nula: Con nula: int, 0, 0  na liniji 5
+INFO  19:24:29,473 - Deklarisana konstanta jedan: Con jedan: int, 1, 0  na liniji 6
+INFO  19:24:29,477 - Deklarisana konstanta tri: Con tri: int, 3, 0  na liniji 7
+INFO  19:24:29,477 - Deklarisana konstanta pet: Con pet: int, 5, 0  na liniji 8
+INFO  19:24:29,478 - Deklarisan niz niz: Var niz: Arr of int, 0, 0  na liniji 10
+INFO  19:24:29,478 - Deklarisan niz nizch: Var nizch: Arr of char, 1, 0  na liniji 11
+INFO  19:24:29,478 - Deklarisana promjenljiva bodovi: Var bodovi: char, 2, 0  na liniji 12
+INFO  19:24:29,478 - Deklarisana promjenljiva bodovi: Var bodovi: int, 0, 1  na liniji 16
+INFO  19:24:29,478 - Deklarisana promjenljiva bt: Var bt: , 1, 1  na liniji 17
+ERROR 19:24:29,478 - Greska: Mora biti int tipa na liniji 19
+ERROR 19:24:29,478 - Greska na liniji 19 : nekompatibilni tipovi u dodjeli vrednosti! 
+INFO  19:24:29,478 - ===================================
+ERROR 19:24:29,479 - Parsiranje nije uspjesno zavrseno!

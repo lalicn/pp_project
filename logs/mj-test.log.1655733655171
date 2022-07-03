@@ -1,0 +1,105 @@
+INFO  15:59:38,330 - Compiling source file: C:\Users\Korisnik\Desktop\Programski prevodioci\Uradjeno\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  15:59:38,389 - #2 program
+INFO  15:59:38,389 - #49 MJProgram
+INFO  15:59:38,389 - #49 int
+INFO  15:59:38,391 - #49 x
+INFO  15:59:38,392 - #36 ;
+INFO  15:59:38,392 - #44 {
+INFO  15:59:38,392 - #49 int
+INFO  15:59:38,393 - #49 main
+INFO  15:59:38,393 - #40 (
+INFO  15:59:38,394 - #41 )
+INFO  15:59:38,395 - #44 {
+INFO  15:59:38,396 - #49 x
+INFO  15:59:38,396 - #33 =
+INFO  15:59:38,396 - #48 3
+INFO  15:59:38,397 - #36 ;
+INFO  15:59:38,397 - #10 print
+INFO  15:59:38,398 - #40 (
+INFO  15:59:38,398 - #49 x
+INFO  15:59:38,398 - #41 )
+INFO  15:59:38,398 - #36 ;
+INFO  15:59:38,399 - #45 }
+INFO  15:59:38,399 - #45 }
+INFO  15:59:38,401 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  Decl(
+    DeclarationsDerived1(
+    ) [DeclarationsDerived1]
+    VarDec(
+      VarDeclara(
+        Type(
+         int
+        ) [Type]
+        NoVarCommaDecl(
+        ) [NoVarCommaDecl]
+        VarDeclaration(
+         x
+        ) [VarDeclaration]
+      ) [VarDeclara]
+    ) [VarDec]
+  ) [Decl]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        TypeReturn(
+          Type(
+           int
+          ) [Type]
+        ) [TypeReturn]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      StmtList(
+        StmtList(
+          NoStmt(
+          ) [NoStmt]
+          NoLabelStatement(
+            DesignStatement(
+              AssignopDesignator(
+                IdentDesignator(
+                 x
+                ) [IdentDesignator]
+                Assignop(
+                ) [Assignop]
+                TermExpr(
+                  SingleFactorTerm(
+                    NumberConst(
+                     3
+                    ) [NumberConst]
+                  ) [SingleFactorTerm]
+                ) [TermExpr]
+              ) [AssignopDesignator]
+            ) [DesignStatement]
+          ) [NoLabelStatement]
+        ) [StmtList]
+        NoLabelStatement(
+          PrintStatement(
+            TermExpr(
+              SingleFactorTerm(
+                Var(
+                  IdentDesignator(
+                   x
+                  ) [IdentDesignator]
+                ) [Var]
+              ) [SingleFactorTerm]
+            ) [TermExpr]
+          ) [PrintStatement]
+        ) [NoLabelStatement]
+      ) [StmtList]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:59:38,402 - ===================================
+INFO  15:59:38,410 - Deklarisana promjenljiva x na liniji 2
+INFO  15:59:38,410 - Obradjuje se funkcija main na liniji 5
+ERROR 15:59:38,411 - Semanticka greska na liniji 8; Operand instrukcije PRINT mora biti char ili int tipa
+INFO  15:59:38,411 - ===================================
+ERROR 15:59:38,411 - Parsiranje nije uspjesno zavrseno!

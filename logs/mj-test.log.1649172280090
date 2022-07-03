@@ -1,0 +1,38 @@
+INFO  17:24:05,544 - Compiling source file: C:\Users\Korisnik\Desktop\Programski prevodioci\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  17:24:05,603 - #2 program
+INFO  17:24:05,603 - #49 MJProgram
+INFO  17:24:05,603 - #49 int
+INFO  17:24:05,604 - #49 x
+INFO  17:24:05,604 - #42 [
+INFO  17:24:05,604 - #43 ]
+INFO  17:24:05,604 - #48 2
+ERROR 17:24:05,604 - 
+Sintaksna greska na liniji 2
+INFO  17:24:05,605 - #38 ,
+INFO  17:24:05,605 - #49 y
+INFO  17:24:05,605 - #36 ;
+INFO  17:24:05,605 - #44 {
+INFO  17:24:05,605 - #49 int
+INFO  17:24:05,605 - #49 main
+INFO  17:24:05,606 - #40 (
+INFO  17:24:05,606 - #41 )
+INFO  17:24:05,606 - #44 {
+INFO  17:24:05,606 - #10 print
+INFO  17:24:05,606 - #40 (
+INFO  17:24:05,608 - #48 1
+INFO  17:24:05,608 - #41 )
+INFO  17:24:05,608 - #36 ;
+INFO  17:24:05,608 - #49 x
+INFO  17:24:05,608 - #33 =
+INFO  17:24:05,608 - #49 y
+INFO  17:24:05,608 - #20 +
+INFO  17:24:05,608 - #48 5
+INFO  17:24:05,608 - #36 ;
+INFO  17:24:05,608 - #10 print
+INFO  17:24:05,608 - #40 (
+INFO  17:24:05,608 - #48 2
+INFO  17:24:05,608 - #41 )
+INFO  17:24:05,609 - #36 ;
+INFO  17:24:05,609 - #45 }
+INFO  17:24:05,609 - #45 }
+ERROR 17:24:05,609 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 13

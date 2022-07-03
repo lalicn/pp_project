@@ -1,0 +1,327 @@
+
+
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+parser code {:
+
+	boolean errorDetected;
+	Logger log = Logger.getLogger(getClass());
+   
+   
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	errorDetected = true;
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+
+
+:}
+
+init with{:
+	errorDetected = false;
+:}
+
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+terminal PROG, BREAK, CLASS, ENUM, CONST, DO, WHILE, NEW, PRINT, READ, RETURN, VOID, EXTENDS, CONTINUE;
+terminal THIS, SUPER, GOTO, RECORD, PLUS, MINUS, MULTIPLY, DIVIDE, MODULO, SQUARE;
+terminal IFEQUAL, IFNOTEQUAL, GREATER, GREATEREQUAL, LESS, LESSEQUAL, AND, OR, ASSIGN, INCREMENT, DECREMENT;
+terminal SEMICOLON, COLON, COMMA, DOT, LPAREN, RPAREN, LBRACKET, RBRACKET, LBRACE, RBRACE;
+terminal Boolean BOOLCONST;
+terminal Character CHARCONST;
+terminal Integer NUMCONST;
+terminal String IDENT;
+terminal IF, ELSE;
+
+
+nonterminal Declarations, SpecificDeclaration, VarDeclList, MethodDeclList, ConstDecl, VarDecl, ClassDecl, MethodType;
+nonterminal FormPars, ConstList, ConstD, VarList, VarD, StatementList, FormalParamList, FormalParamDecl, Statement, ExtendingClass, ClassMethod;
+nonterminal Assignop, Relop, Addop, Mulop, ActPars, ActualParamList;
+nonterminal Condition, CondTerm, CondFact, ExprList, Label;
+nonterminal SingleStatement, Statements, DesignatorStatement;
+nonterminal Matched, Unmatched, VarListComma, VarPos, VarType, ConstType;
+nonterminal Expop;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj ProgName, Program, MethodDecl, MethodTypeName, Designator;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type, Term, Factor, Expr, BaseExp;
+
+precedence left ELSE;
+
+
+Program ::= (Program) PROG ProgName:p Declarations LBRACE MethodDeclList RBRACE;
+
+ProgName ::= (ProgName) IDENT:progName;
+
+Declarations ::= (Decl) Declarations SpecificDeclaration
+			|
+			/* epsilon */
+			;
+			
+SpecificDeclaration ::= (ConstDec) ConstDecl
+			|
+			(VarDec) VarDecl
+			|
+			(ClassDec) ClassDecl
+			;	
+			
+ConstDecl ::= (ConstDeclar) CONST ConstType ConstList SEMICOLON
+			;
+			
+ConstType ::= (ConstType) Type:varType;
+
+ConstList ::= (Consts) ConstList COMMA ConstD
+		|
+		(SingleConstDecl) ConstD
+		;
+		
+ConstD ::= (ConstDNum) IDENT:varName Assignop NUMCONST:numConst
+		|
+		(ConstDChar) IDENT:varName Assignop CHARCONST:charConst
+		|
+		(ConstDBool) IDENT:varName Assignop BOOLCONST:boolConst
+		;
+
+VarDeclList ::= (VarDeclarations) VarDeclList VarDecl
+			|
+			(NoVarDecl) /* epsilon */
+			;
+			
+VarDecl ::= (VarDeclara) VarType VarList VarPos
+		;
+		
+VarType ::= (VarType) Type:varType;
+		
+VarPos ::= (VarDeclaration) IDENT:varName SEMICOLON
+		|
+		(VarArrayD) IDENT:varName LBRACKET RBRACKET SEMICOLON
+		|
+		error SEMICOLON:l
+		{: parser.report_error("Izvrsen oporavak do; u liniji " + lleft, null); :}
+		;
+
+VarList ::= (Vars) VarList VarD
+		|
+		(NoVarCommaDecl) /* epsilon */
+		;
+		
+VarD ::= (VarDeclarationComma) IDENT:varName COMMA
+		|
+		(VarArrayDComma) IDENT:varName LBRACKET RBRACKET COMMA
+		|
+		error COMMA:s
+		{: parser.report_error("Izvrsen oporavak do, u liniji " + sleft, null); :}
+		;
+			
+ClassDecl ::= (ClassDecl) CLASS IDENT ExtendingClass LBRACE VarDeclList ClassMethod RBRACE;
+
+ExtendingClass ::= (NonExtendingClass) /* epsilon */
+				|
+				(ExtendClass) EXTENDS Type:classType
+				;
+
+ClassMethod ::= (ClassWithMethods) LBRACE MethodDeclList RBRACE
+			|
+			(ClassWithoutMethods) /* epsilon */
+			;
+
+MethodDeclList ::= (MethodDeclarations) MethodDeclList MethodDecl
+				|
+				(NoMethodDecl) /* epsilon */
+				;
+				
+MethodDecl ::= (MethodDecl) MethodTypeName LPAREN FormPars RPAREN VarDeclList LBRACE StatementList RBRACE;
+
+MethodTypeName ::= (MethodTypeName) MethodType IDENT:methName;
+
+MethodType ::= (TypeReturn) Type:rtType
+			|
+			(VoidReturn) VOID
+			;
+
+FormPars ::= (FormParams) FormalParamList
+		  |
+		  (NoFormParam) /* epsilon */
+		  ;
+		  
+FormalParamList ::= (FormalParamDecls) FormalParamList COMMA FormalParamDecl
+				|
+				(SingleFormalParamDecl) FormalParamDecl
+				;
+				
+FormalParamDecl ::= (FormalParamD) Type:paramType IDENT 
+				|
+				(FormalParamArrayDecl) Type:paramType IDENT LBRACKET RBRACKET
+				;
+				
+Type ::= (Type) IDENT:typeName;
+
+Statement ::= (LabelStatement) Label COLON SingleStatement
+		   |
+		   (NoLabelStatement) SingleStatement
+		   |
+		   (Stmts) Statements
+		   ;
+		   
+SingleStatement ::= (DesignStatement) DesignatorStatement SEMICOLON
+				|
+				error SEMICOLON:k
+				{: parser.report_error("Izvrsen oporavak do; u liniji " + kleft, null); :}
+				|
+				(IfStatement) IF LPAREN Condition RPAREN Statement
+				|
+				(IfElseStatement) IF LPAREN Condition RPAREN Statement ELSE Statement
+				|
+				(DoStatement) DO Statement WHILE LPAREN Condition RPAREN SEMICOLON
+				|
+				(BreakStatement) BREAK SEMICOLON
+				|
+				(ContinueStatement) CONTINUE SEMICOLON
+				|
+				(ReturnExprStatement) RETURN Expr SEMICOLON
+				|
+				(ReturnStatement) RETURN SEMICOLON
+				|
+				(ReadStatement) READ LPAREN Designator RPAREN SEMICOLON
+				|
+				(PrintExprStatement) PRINT LPAREN Expr COMMA NUMCONST:numConst RPAREN SEMICOLON
+				|
+				(PrintStatement) PRINT LPAREN Expr RPAREN SEMICOLON
+				|
+				(GotoStatement) GOTO Label SEMICOLON
+				;
+				
+Statements ::= (Statements) LBRACE StatementList RBRACE;
+
+StatementList ::= (StmtList) StatementList Statement
+				|
+				(NoStmt) /* epsilon */
+				;
+				
+DesignatorStatement ::= (AssignopDesignator) Designator Assignop Expr
+					|
+					(IncrementDesignator) Designator INCREMENT
+					|
+					(DecrementDesignator) Designator DECREMENT
+					;
+					
+ActPars ::= (Actuals) ActualParamList
+			|
+			(NoActuals) /* epsilon */
+			;
+			
+ActualParamList ::= (ActualParams) ActualParamList COMMA Expr
+				|
+				(ActualParam) Expr
+				;
+				
+Condition ::= (Conditions) Condition OR CondTerm
+			|
+			(SingleCondition) CondTerm
+			;
+			
+CondTerm ::= (CondTerms) CondTerm AND CondFact
+			|
+			(SingleCondTerm) CondFact
+			;
+			
+CondFact ::= (OneCondFact) Expr
+			|
+			(TwoCondFacts) Expr Relop Expr
+			;   			
+			
+Expr ::= (AddopExpr) Expr:te Addop Term:t
+	 |
+	 (TermExpr) Term:t
+	 |
+	 (NegativeTermExpr) MINUS Term:t
+	 ;
+
+Term ::= (MultipleFactorsTerm) Term Mulop Factor
+		|
+		(SingleFactorTerm) Factor
+		;
+		
+Factor ::= (MultipleBaseExpsFactor) Factor Expop BaseExp
+		|
+		(SingleBaseExpFactor) BaseExp;
+
+BaseExp ::= (NumberConst) NUMCONST:numConst
+		|
+		(CharConst) CHARCONST:charConst
+		|
+		(BoolConst) BOOLCONST:boolConst
+		|
+		(Expression) LPAREN Expr RPAREN
+		|
+		(New) NEW Type:typeName
+		|
+		(NewArray) NEW Type:typeName LBRACKET Expr RBRACKET
+		|
+		(Var) Designator:d
+		| 
+		(FuncCall) Designator:func LPAREN ActPars RPAREN
+		;
+				
+Designator ::= (ArrayDesignator) Designator LBRACKET Expr RBRACKET
+			|
+			(IdentDesignator) IDENT:name
+			;
+			
+Label ::= IDENT;
+
+Assignop ::= (Assignop) ASSIGN;
+
+Relop ::= (IfEqual) IFEQUAL
+		|
+		(IfNotEqual) IFNOTEQUAL
+		|
+		(Greater) GREATER
+		|
+		(GreaterEqual) GREATEREQUAL
+		|
+		(Less) LESS
+		|
+		(LessEqual) LESSEQUAL
+		;
+		
+Addop ::= (Plus) PLUS
+		| 
+		(Minus) MINUS
+		;
+		
+Mulop ::= (Multiply) MULTIPLY
+		| 
+		(Divide) DIVIDE
+		|
+		(Modulo) MODULO
+		;
+
+Expop ::= (Square) SQUARE;
+		
+

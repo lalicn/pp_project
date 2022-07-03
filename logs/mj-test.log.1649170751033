@@ -1,0 +1,105 @@
+INFO  16:45:27,997 - Compiling source file: C:\Users\Korisnik\Desktop\Programski prevodioci\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  16:45:28,063 - #2 program
+INFO  16:45:28,063 - #49 MJProgram
+INFO  16:45:28,063 - #49 int
+INFO  16:45:28,064 - #49 x
+INFO  16:45:28,066 - #42 [
+INFO  16:45:28,072 - #43 ]
+INFO  16:45:28,072 - #42 [
+ERROR 16:45:28,072 - 
+Sintaksna greska na liniji 2
+INFO  16:45:28,072 - #43 ]
+INFO  16:45:28,072 - #38 ,
+INFO  16:45:28,072 - #49 y
+INFO  16:45:28,073 - #36 ;
+INFO  16:45:28,073 - #44 {
+INFO  16:45:28,073 - #49 int
+INFO  16:45:28,073 - #49 main
+ERROR 16:45:28,073 - Izvrsen oporavak do; u liniji 2
+INFO  16:45:28,075 - #40 (
+INFO  16:45:28,075 - #41 )
+INFO  16:45:28,076 - #44 {
+INFO  16:45:28,077 - #10 print
+INFO  16:45:28,078 - #40 (
+INFO  16:45:28,079 - #48 1
+INFO  16:45:28,079 - #41 )
+INFO  16:45:28,079 - #36 ;
+INFO  16:45:28,079 - #49 x
+INFO  16:45:28,079 - #33 =
+INFO  16:45:28,080 - #49 y
+INFO  16:45:28,080 - #20 +
+INFO  16:45:28,081 - #48 5
+INFO  16:45:28,082 - #20 +
+INFO  16:45:28,082 - #36 ;
+ERROR 16:45:28,082 - 
+Sintaksna greska na liniji 8
+INFO  16:45:28,083 - #10 print
+INFO  16:45:28,083 - #40 (
+INFO  16:45:28,083 - #48 2
+ERROR 16:45:28,083 - Izvrsen oporavak do; u liniji 8
+INFO  16:45:28,084 - #41 )
+INFO  16:45:28,084 - #36 ;
+INFO  16:45:28,084 - #45 }
+INFO  16:45:28,085 - #45 }
+INFO  16:45:28,087 - Program(
+ MJProgram
+  Decl(
+    DeclarationsDerived1(
+    ) [DeclarationsDerived1]
+    ConstDec(
+      ConstDeclDerived1(
+      ) [ConstDeclDerived1]
+    ) [ConstDec]
+  ) [Decl]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      TypeReturn(
+        Type(
+         int
+        ) [Type]
+      ) [TypeReturn]
+     main
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      StmtList(
+        StmtList(
+          StmtList(
+            NoStmt(
+            ) [NoStmt]
+            NoLabelStatement(
+              PrintStatement(
+                TermExpr(
+                  SingleFactorTerm(
+                    NumberConst(
+                     1
+                    ) [NumberConst]
+                  ) [SingleFactorTerm]
+                ) [TermExpr]
+              ) [PrintStatement]
+            ) [NoLabelStatement]
+          ) [StmtList]
+          NoLabelStatement(
+            SingleStatementDerived1(
+            ) [SingleStatementDerived1]
+          ) [NoLabelStatement]
+        ) [StmtList]
+        NoLabelStatement(
+          PrintStatement(
+            TermExpr(
+              SingleFactorTerm(
+                NumberConst(
+                 2
+                ) [NumberConst]
+              ) [SingleFactorTerm]
+            ) [TermExpr]
+          ) [PrintStatement]
+        ) [NoLabelStatement]
+      ) [StmtList]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:45:28,087 - ===================================

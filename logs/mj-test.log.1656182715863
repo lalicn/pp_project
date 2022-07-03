@@ -1,0 +1,140 @@
+INFO  20:45:03,675 - Compiling source file: C:\Users\Korisnik\Desktop\Programski prevodioci\Uradjeno\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  20:45:03,726 - #2 program
+INFO  20:45:03,726 - #50 Test2
+INFO  20:45:03,727 - #6 const
+INFO  20:45:03,728 - #50 int
+INFO  20:45:03,728 - #50 x
+INFO  20:45:03,730 - #34 =
+INFO  20:45:03,730 - #49 1
+INFO  20:45:03,730 - #37 ;
+INFO  20:45:03,731 - #45 {
+INFO  20:45:03,731 - #13 void
+INFO  20:45:03,732 - #50 main
+INFO  20:45:03,732 - #41 (
+INFO  20:45:03,733 - #42 )
+INFO  20:45:03,733 - #50 int
+INFO  20:45:03,734 - #50 y
+INFO  20:45:03,735 - #34 =
+ERROR 20:45:03,735 - 
+Sintaksna greska na liniji 5
+INFO  20:45:03,735 - #37 ;
+INFO  20:45:03,735 - #45 {
+INFO  20:45:03,744 - #50 x
+INFO  20:45:03,745 - #34 =
+ERROR 20:45:03,745 - Izvrsen oporavak do; u liniji 5
+INFO  20:45:03,746 - #20 +
+ERROR 20:45:03,746 - 
+Sintaksna greska na liniji 7
+INFO  20:45:03,746 - #49 1
+INFO  20:45:03,746 - #37 ;
+INFO  20:45:03,746 - #10 print
+INFO  20:45:03,747 - #41 (
+INFO  20:45:03,747 - #50 x
+ERROR 20:45:03,747 - Izvrsen oporavak do; u liniji 7
+INFO  20:45:03,748 - #42 )
+INFO  20:45:03,748 - #37 ;
+INFO  20:45:03,748 - #10 print
+INFO  20:45:03,748 - #41 (
+INFO  20:45:03,748 - #49 128
+INFO  20:45:03,749 - #42 )
+INFO  20:45:03,749 - #37 ;
+INFO  20:45:03,749 - #46 }
+INFO  20:45:03,749 - #46 }
+INFO  20:45:03,751 - Program(
+  ProgName(
+   Test2
+  ) [ProgName]
+  Decl(
+    DeclarationsDerived1(
+    ) [DeclarationsDerived1]
+    ConstDec(
+      ConstDeclar(
+        ConstType(
+          Type(
+           int
+          ) [Type]
+        ) [ConstType]
+        SingleConstDecl(
+          ConstDNum(
+           x
+            Assignop(
+            ) [Assignop]
+           1
+          ) [ConstDNum]
+        ) [SingleConstDecl]
+      ) [ConstDeclar]
+    ) [ConstDec]
+  ) [Decl]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        VoidReturn(
+        ) [VoidReturn]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      VarDeclarations(
+        NoVarDecl(
+        ) [NoVarDecl]
+        VarDeclara(
+          VarType(
+            Type(
+             int
+            ) [Type]
+          ) [VarType]
+          NoVarCommaDecl(
+          ) [NoVarCommaDecl]
+          VarPosDerived1(
+          ) [VarPosDerived1]
+        ) [VarDeclara]
+      ) [VarDeclarations]
+      StmtList(
+        StmtList(
+          StmtList(
+            NoStmt(
+            ) [NoStmt]
+            NoLabelStatement(
+              SingleStatementDerived1(
+              ) [SingleStatementDerived1]
+            ) [NoLabelStatement]
+          ) [StmtList]
+          NoLabelStatement(
+            PrintStatement(
+              TermExpr(
+                SingleFactorTerm(
+                  SingleBaseExpFactor(
+                    Var(
+                      IdentDesignator(
+                       x
+                      ) [IdentDesignator]
+                    ) [Var]
+                  ) [SingleBaseExpFactor]
+                ) [SingleFactorTerm]
+              ) [TermExpr]
+            ) [PrintStatement]
+          ) [NoLabelStatement]
+        ) [StmtList]
+        NoLabelStatement(
+          PrintStatement(
+            TermExpr(
+              SingleFactorTerm(
+                SingleBaseExpFactor(
+                  NumberConst(
+                   128
+                  ) [NumberConst]
+                ) [SingleBaseExpFactor]
+              ) [SingleFactorTerm]
+            ) [TermExpr]
+          ) [PrintStatement]
+        ) [NoLabelStatement]
+      ) [StmtList]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  20:45:03,751 - ===================================
+INFO  20:45:03,766 - Deklarisana konstanta x: Con x: int, 1, 0  na liniji 2
+INFO  20:45:03,766 - ===================================
+ERROR 20:45:03,767 - Parsiranje nije uspjesno zavrseno!

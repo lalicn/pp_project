@@ -1,0 +1,39 @@
+INFO  17:06:59,009 - Compiling source file: C:\Users\Korisnik\Desktop\Programski prevodioci\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  17:06:59,076 - #2 program
+INFO  17:06:59,076 - #49 MJProgram
+INFO  17:06:59,076 - #49 int
+INFO  17:06:59,077 - #49 x
+INFO  17:06:59,078 - #42 [
+INFO  17:06:59,078 - #43 ]
+INFO  17:06:59,078 - #42 [
+ERROR 17:06:59,078 - 
+Sintaksna greska na liniji 2
+INFO  17:06:59,078 - #43 ]
+INFO  17:06:59,078 - #38 ,
+INFO  17:06:59,078 - #49 y
+INFO  17:06:59,079 - #36 ;
+INFO  17:06:59,079 - #44 {
+INFO  17:06:59,079 - #49 int
+INFO  17:06:59,079 - #49 main
+INFO  17:06:59,079 - #40 (
+INFO  17:06:59,079 - #41 )
+INFO  17:06:59,079 - #44 {
+INFO  17:06:59,080 - #10 print
+INFO  17:06:59,082 - #40 (
+INFO  17:06:59,082 - #48 1
+INFO  17:06:59,082 - #41 )
+INFO  17:06:59,082 - #36 ;
+INFO  17:06:59,082 - #49 x
+INFO  17:06:59,082 - #33 =
+INFO  17:06:59,082 - #49 y
+INFO  17:06:59,082 - #20 +
+INFO  17:06:59,082 - #48 5
+INFO  17:06:59,082 - #36 ;
+INFO  17:06:59,082 - #10 print
+INFO  17:06:59,083 - #40 (
+INFO  17:06:59,083 - #48 2
+INFO  17:06:59,083 - #41 )
+INFO  17:06:59,083 - #36 ;
+INFO  17:06:59,083 - #45 }
+INFO  17:06:59,083 - #45 }
+ERROR 17:06:59,083 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 13

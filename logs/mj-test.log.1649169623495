@@ -1,0 +1,113 @@
+INFO  16:40:12,866 - Compiling source file: C:\Users\Korisnik\Desktop\Programski prevodioci\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  16:40:12,936 - #2 program
+INFO  16:40:12,936 - #49 MJProgram
+INFO  16:40:12,936 - #49 int
+INFO  16:40:12,937 - #49 x
+INFO  16:40:12,938 - #42 [
+INFO  16:40:12,939 - #43 ]
+INFO  16:40:12,939 - #38 ,
+INFO  16:40:12,939 - #49 y
+INFO  16:40:12,939 - #36 ;
+INFO  16:40:12,939 - #44 {
+INFO  16:40:12,940 - #49 int
+INFO  16:40:12,941 - #49 main
+INFO  16:40:12,941 - #40 (
+INFO  16:40:12,941 - #41 )
+INFO  16:40:12,942 - #44 {
+INFO  16:40:12,943 - #10 print
+INFO  16:40:12,944 - #40 (
+INFO  16:40:12,944 - #48 1
+INFO  16:40:12,944 - #41 )
+INFO  16:40:12,944 - #36 ;
+INFO  16:40:12,947 - #49 x
+INFO  16:40:12,947 - #33 =
+INFO  16:40:12,947 - #49 y
+INFO  16:40:12,948 - #20 +
+INFO  16:40:12,948 - #48 5
+INFO  16:40:12,950 - #20 +
+INFO  16:40:12,950 - #36 ;
+ERROR 16:40:12,950 - 
+Sintaksna greska na liniji 8
+INFO  16:40:12,950 - #10 print
+INFO  16:40:12,950 - #40 (
+INFO  16:40:12,950 - #48 2
+ERROR 16:40:12,951 - Izvrsen oporavak do; u liniji 8
+INFO  16:40:12,952 - #41 )
+INFO  16:40:12,952 - #36 ;
+INFO  16:40:12,952 - #45 }
+INFO  16:40:12,952 - #45 }
+INFO  16:40:12,955 - Program(
+ MJProgram
+  Decl(
+    DeclarationsDerived1(
+    ) [DeclarationsDerived1]
+    VarDec(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        Vars(
+          SingleVarDecl(
+            VarArrayD(
+             x
+            ) [VarArrayD]
+          ) [SingleVarDecl]
+          VarDeclaration(
+           y
+          ) [VarDeclaration]
+        ) [Vars]
+      ) [VarDecl]
+    ) [VarDec]
+  ) [Decl]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      TypeReturn(
+        Type(
+         int
+        ) [Type]
+      ) [TypeReturn]
+     main
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      StmtList(
+        StmtList(
+          StmtList(
+            NoStmt(
+            ) [NoStmt]
+            NoLabelStatement(
+              PrintStatement(
+                TermExpr(
+                  SingleFactorTerm(
+                    NumberConst(
+                     1
+                    ) [NumberConst]
+                  ) [SingleFactorTerm]
+                ) [TermExpr]
+              ) [PrintStatement]
+            ) [NoLabelStatement]
+          ) [StmtList]
+          NoLabelStatement(
+            SingleStatementDerived1(
+            ) [SingleStatementDerived1]
+          ) [NoLabelStatement]
+        ) [StmtList]
+        NoLabelStatement(
+          PrintStatement(
+            TermExpr(
+              SingleFactorTerm(
+                NumberConst(
+                 2
+                ) [NumberConst]
+              ) [SingleFactorTerm]
+            ) [TermExpr]
+          ) [PrintStatement]
+        ) [NoLabelStatement]
+      ) [StmtList]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:40:12,955 - ===================================

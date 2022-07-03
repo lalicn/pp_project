@@ -1,0 +1,144 @@
+INFO  22:32:22,867 - Compiling source file: C:\Users\Korisnik\Desktop\Programski prevodioci\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  22:32:22,921 - #2 program
+INFO  22:32:22,921 - #49 MJProgram
+INFO  22:32:22,921 - #49 int
+INFO  22:32:22,923 - #49 x
+INFO  22:32:22,923 - #36 ;
+INFO  22:32:22,923 - #49 int
+INFO  22:32:22,924 - #49 y
+INFO  22:32:22,924 - #36 ;
+INFO  22:32:22,924 - #44 {
+INFO  22:32:22,925 - #49 int
+INFO  22:32:22,926 - #49 main
+INFO  22:32:22,926 - #40 (
+INFO  22:32:22,926 - #41 )
+INFO  22:32:22,926 - #44 {
+INFO  22:32:22,927 - #10 print
+INFO  22:32:22,927 - #40 (
+INFO  22:32:22,927 - #48 1
+INFO  22:32:22,927 - #41 )
+INFO  22:32:22,928 - #36 ;
+INFO  22:32:22,928 - #49 x
+INFO  22:32:22,930 - #33 =
+INFO  22:32:22,930 - #49 y
+INFO  22:32:22,931 - #20 +
+INFO  22:32:22,931 - #48 5
+INFO  22:32:22,932 - #36 ;
+INFO  22:32:22,932 - #10 print
+INFO  22:32:22,932 - #40 (
+INFO  22:32:22,932 - #48 2
+INFO  22:32:22,932 - #41 )
+INFO  22:32:22,933 - #36 ;
+INFO  22:32:22,933 - #45 }
+INFO  22:32:22,933 - #45 }
+INFO  22:32:22,935 - Program(
+ MJProgram
+  NoConstDecl(
+  ) [NoConstDecl]
+  VarDeclarations(
+    VarDeclarations(
+      NoVarDecl(
+      ) [NoVarDecl]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        SingleVarDecl(
+          VarDeclaration(
+           x
+          ) [VarDeclaration]
+        ) [SingleVarDecl]
+      ) [VarDecl]
+    ) [VarDeclarations]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      SingleVarDecl(
+        VarDeclaration(
+         y
+        ) [VarDeclaration]
+      ) [SingleVarDecl]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  NoClassDecl(
+  ) [NoClassDecl]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      TypeReturn(
+        Type(
+         int
+        ) [Type]
+      ) [TypeReturn]
+     main
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      StmtList(
+        StmtList(
+          StmtList(
+            NoStmt(
+            ) [NoStmt]
+            NoLabelStatement(
+              PrintStatement(
+                TermExpr(
+                  SingleFactorTerm(
+                    NumberConst(
+                     1
+                    ) [NumberConst]
+                  ) [SingleFactorTerm]
+                ) [TermExpr]
+              ) [PrintStatement]
+            ) [NoLabelStatement]
+          ) [StmtList]
+          NoLabelStatement(
+            DesignStatement(
+              AssignopDesignator(
+                IdentDesignator(
+                 x
+                ) [IdentDesignator]
+                Assignop(
+                ) [Assignop]
+                AddopExpr(
+                  TermExpr(
+                    SingleFactorTerm(
+                      Var(
+                        IdentDesignator(
+                         y
+                        ) [IdentDesignator]
+                      ) [Var]
+                    ) [SingleFactorTerm]
+                  ) [TermExpr]
+                  Plus(
+                  ) [Plus]
+                  SingleFactorTerm(
+                    NumberConst(
+                     5
+                    ) [NumberConst]
+                  ) [SingleFactorTerm]
+                ) [AddopExpr]
+              ) [AssignopDesignator]
+            ) [DesignStatement]
+          ) [NoLabelStatement]
+        ) [StmtList]
+        NoLabelStatement(
+          PrintStatement(
+            TermExpr(
+              SingleFactorTerm(
+                NumberConst(
+                 2
+                ) [NumberConst]
+              ) [SingleFactorTerm]
+            ) [TermExpr]
+          ) [PrintStatement]
+        ) [NoLabelStatement]
+      ) [StmtList]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  22:32:22,935 - ===================================
+INFO  22:32:22,937 -  Print count calls = 0
+INFO  22:32:22,937 -  Deklarisanih promenljivih ima = 2

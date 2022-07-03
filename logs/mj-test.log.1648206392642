@@ -1,0 +1,16 @@
+INFO  10:00:12,888 - Compiling source file: C:\Users\Korisnik\Desktop\Programski prevodioci\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  10:00:12,911 - #1 program
+INFO  10:00:12,911 - #4 MJProgram
+INFO  10:00:12,911 - #4 int
+INFO  10:00:12,912 - #4 x
+INFO  10:00:12,912 - #8 ,
+INFO  10:00:12,912 - #4 y
+INFO  10:00:12,912 - #9 ;
+INFO  10:00:12,912 - #12 {
+INFO  10:00:12,912 - #15 void
+INFO  10:00:12,912 - #4 main
+INFO  10:00:12,912 - #10 (
+INFO  10:00:12,912 - #11 )
+INFO  10:00:12,913 - #12 {
+INFO  10:00:12,913 - #13 }
+INFO  10:00:12,913 - #13 }

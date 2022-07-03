@@ -1,0 +1,159 @@
+INFO  18:21:57,131 - Compiling source file: C:\Users\Korisnik\Desktop\Programski prevodioci\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  18:21:57,200 - #2 program
+INFO  18:21:57,200 - #49 MJProgram
+INFO  18:21:57,200 - #49 int
+INFO  18:21:57,201 - #49 x
+INFO  18:21:57,202 - #42 [
+INFO  18:21:57,202 - #38 ,
+ERROR 18:21:57,202 - 
+Sintaksna greska na liniji 2
+INFO  18:21:57,203 - #49 s
+INFO  18:21:57,203 - #38 ,
+INFO  18:21:57,203 - #49 y
+ERROR 18:21:57,203 - Izvrsen oporavak do, u liniji 2
+INFO  18:21:57,204 - #38 ,
+INFO  18:21:57,204 - #49 a
+INFO  18:21:57,204 - #44 {
+ERROR 18:21:57,204 - 
+Sintaksna greska na liniji 2
+INFO  18:21:57,205 - #38 ,
+INFO  18:21:57,205 - #49 p
+INFO  18:21:57,205 - #36 ;
+INFO  18:21:57,205 - #44 {
+ERROR 18:21:57,205 - Izvrsen oporavak do, u liniji 2
+INFO  18:21:57,206 - #49 int
+INFO  18:21:57,206 - #49 main
+INFO  18:21:57,207 - #40 (
+INFO  18:21:57,207 - #41 )
+INFO  18:21:57,208 - #44 {
+INFO  18:21:57,208 - #10 print
+INFO  18:21:57,209 - #40 (
+INFO  18:21:57,209 - #48 1
+INFO  18:21:57,210 - #41 )
+INFO  18:21:57,210 - #36 ;
+INFO  18:21:57,210 - #49 x
+INFO  18:21:57,210 - #33 =
+INFO  18:21:57,210 - #49 y
+INFO  18:21:57,211 - #20 +
+INFO  18:21:57,211 - #48 5
+INFO  18:21:57,213 - #36 ;
+INFO  18:21:57,213 - #10 print
+INFO  18:21:57,213 - #40 (
+INFO  18:21:57,213 - #48 2
+INFO  18:21:57,213 - #41 )
+INFO  18:21:57,213 - #36 ;
+INFO  18:21:57,213 - #45 }
+INFO  18:21:57,214 - #45 }
+INFO  18:21:57,217 - Program(
+ MJProgram
+  Decl(
+    DeclarationsDerived1(
+    ) [DeclarationsDerived1]
+    VarDec(
+      VarDeclara(
+        Type(
+         int
+        ) [Type]
+        Vars(
+          Vars(
+            Vars(
+              Vars(
+                SingleVarDecl(
+                  VarDDerived1(
+                  ) [VarDDerived1]
+                ) [SingleVarDecl]
+                VarDeclarationComma(
+                 s
+                ) [VarDeclarationComma]
+              ) [Vars]
+              VarDeclarationComma(
+               y
+              ) [VarDeclarationComma]
+            ) [Vars]
+            VarDDerived1(
+            ) [VarDDerived1]
+          ) [Vars]
+          VarDeclaration(
+           p
+          ) [VarDeclaration]
+        ) [Vars]
+      ) [VarDeclara]
+    ) [VarDec]
+  ) [Decl]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      TypeReturn(
+        Type(
+         int
+        ) [Type]
+      ) [TypeReturn]
+     main
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      StmtList(
+        StmtList(
+          StmtList(
+            NoStmt(
+            ) [NoStmt]
+            NoLabelStatement(
+              PrintStatement(
+                TermExpr(
+                  SingleFactorTerm(
+                    NumberConst(
+                     1
+                    ) [NumberConst]
+                  ) [SingleFactorTerm]
+                ) [TermExpr]
+              ) [PrintStatement]
+            ) [NoLabelStatement]
+          ) [StmtList]
+          NoLabelStatement(
+            DesignStatement(
+              AssignopDesignator(
+                IdentDesignator(
+                 x
+                ) [IdentDesignator]
+                Assignop(
+                ) [Assignop]
+                AddopExpr(
+                  TermExpr(
+                    SingleFactorTerm(
+                      Var(
+                        IdentDesignator(
+                         y
+                        ) [IdentDesignator]
+                      ) [Var]
+                    ) [SingleFactorTerm]
+                  ) [TermExpr]
+                  Plus(
+                  ) [Plus]
+                  SingleFactorTerm(
+                    NumberConst(
+                     5
+                    ) [NumberConst]
+                  ) [SingleFactorTerm]
+                ) [AddopExpr]
+              ) [AssignopDesignator]
+            ) [DesignStatement]
+          ) [NoLabelStatement]
+        ) [StmtList]
+        NoLabelStatement(
+          PrintStatement(
+            TermExpr(
+              SingleFactorTerm(
+                NumberConst(
+                 2
+                ) [NumberConst]
+              ) [SingleFactorTerm]
+            ) [TermExpr]
+          ) [PrintStatement]
+        ) [NoLabelStatement]
+      ) [StmtList]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:21:57,217 - ===================================

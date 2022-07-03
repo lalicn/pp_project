@@ -1,0 +1,187 @@
+INFO  17:56:22,197 - Compiling source file: C:\Users\Korisnik\Desktop\Programski prevodioci\Uradjeno\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  17:56:22,253 - #2 program
+INFO  17:56:22,253 - #50 test301
+INFO  17:56:22,253 - #50 int
+INFO  17:56:22,254 - #50 niz
+INFO  17:56:22,255 - #43 [
+INFO  17:56:22,255 - #44 ]
+INFO  17:56:22,256 - #37 ;
+INFO  17:56:22,256 - #45 {
+INFO  17:56:22,256 - #13 void
+INFO  17:56:22,257 - #50 main
+INFO  17:56:22,257 - #41 (
+INFO  17:56:22,258 - #42 )
+INFO  17:56:22,258 - #45 {
+INFO  17:56:22,259 - #50 niz
+INFO  17:56:22,259 - #43 [
+INFO  17:56:22,260 - #49 1
+INFO  17:56:22,260 - #44 ]
+INFO  17:56:22,260 - #34 =
+INFO  17:56:22,260 - #49 1
+INFO  17:56:22,261 - #37 ;
+INFO  17:56:22,269 - #50 niz
+INFO  17:56:22,269 - #43 [
+INFO  17:56:22,270 - #50 niz
+INFO  17:56:22,270 - #43 [
+INFO  17:56:22,270 - #49 1
+INFO  17:56:22,270 - #44 ]
+INFO  17:56:22,270 - #25 ^
+INFO  17:56:22,270 - #41 (
+INFO  17:56:22,271 - #49 2
+INFO  17:56:22,271 - #22 *
+INFO  17:56:22,271 - #49 2
+INFO  17:56:22,272 - #42 )
+INFO  17:56:22,273 - #44 ]
+INFO  17:56:22,273 - #34 =
+INFO  17:56:22,273 - #49 2
+INFO  17:56:22,273 - #37 ;
+INFO  17:56:22,273 - #46 }
+INFO  17:56:22,273 - #46 }
+INFO  17:56:22,275 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  Decl(
+    DeclarationsDerived1(
+    ) [DeclarationsDerived1]
+    VarDec(
+      VarDeclara(
+        VarType(
+          Type(
+           int
+          ) [Type]
+        ) [VarType]
+        NoVarCommaDecl(
+        ) [NoVarCommaDecl]
+        VarArrayD(
+         niz
+        ) [VarArrayD]
+      ) [VarDeclara]
+    ) [VarDec]
+  ) [Decl]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        VoidReturn(
+        ) [VoidReturn]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      StmtList(
+        StmtList(
+          NoStmt(
+          ) [NoStmt]
+          NoLabelStatement(
+            DesignStatement(
+              AssignopDesignator(
+                ArrayDesignator(
+                  IdentDesignator(
+                   niz
+                  ) [IdentDesignator]
+                  TermExpr(
+                    SingleFactorTerm(
+                      SingleBaseExpFactor(
+                        NumberConst(
+                         1
+                        ) [NumberConst]
+                      ) [SingleBaseExpFactor]
+                    ) [SingleFactorTerm]
+                  ) [TermExpr]
+                ) [ArrayDesignator]
+                Assignop(
+                ) [Assignop]
+                TermExpr(
+                  SingleFactorTerm(
+                    SingleBaseExpFactor(
+                      NumberConst(
+                       1
+                      ) [NumberConst]
+                    ) [SingleBaseExpFactor]
+                  ) [SingleFactorTerm]
+                ) [TermExpr]
+              ) [AssignopDesignator]
+            ) [DesignStatement]
+          ) [NoLabelStatement]
+        ) [StmtList]
+        NoLabelStatement(
+          DesignStatement(
+            AssignopDesignator(
+              ArrayDesignator(
+                IdentDesignator(
+                 niz
+                ) [IdentDesignator]
+                TermExpr(
+                  SingleFactorTerm(
+                    MultipleBaseExpsFactor(
+                      SingleBaseExpFactor(
+                        Var(
+                          ArrayDesignator(
+                            IdentDesignator(
+                             niz
+                            ) [IdentDesignator]
+                            TermExpr(
+                              SingleFactorTerm(
+                                SingleBaseExpFactor(
+                                  NumberConst(
+                                   1
+                                  ) [NumberConst]
+                                ) [SingleBaseExpFactor]
+                              ) [SingleFactorTerm]
+                            ) [TermExpr]
+                          ) [ArrayDesignator]
+                        ) [Var]
+                      ) [SingleBaseExpFactor]
+                      Square(
+                      ) [Square]
+                      Expression(
+                        TermExpr(
+                          MultipleFactorsTerm(
+                            SingleFactorTerm(
+                              SingleBaseExpFactor(
+                                NumberConst(
+                                 2
+                                ) [NumberConst]
+                              ) [SingleBaseExpFactor]
+                            ) [SingleFactorTerm]
+                            Multiply(
+                            ) [Multiply]
+                            SingleBaseExpFactor(
+                              NumberConst(
+                               2
+                              ) [NumberConst]
+                            ) [SingleBaseExpFactor]
+                          ) [MultipleFactorsTerm]
+                        ) [TermExpr]
+                      ) [Expression]
+                    ) [MultipleBaseExpsFactor]
+                  ) [SingleFactorTerm]
+                ) [TermExpr]
+              ) [ArrayDesignator]
+              Assignop(
+              ) [Assignop]
+              TermExpr(
+                SingleFactorTerm(
+                  SingleBaseExpFactor(
+                    NumberConst(
+                     2
+                    ) [NumberConst]
+                  ) [SingleBaseExpFactor]
+                ) [SingleFactorTerm]
+              ) [TermExpr]
+            ) [AssignopDesignator]
+          ) [DesignStatement]
+        ) [NoLabelStatement]
+      ) [StmtList]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:56:22,276 - ===================================
+INFO  17:56:22,292 - Deklarisana promjenljiva niz na liniji 5
+INFO  17:56:22,292 - Obradjuje se funkcija main na liniji 8
+INFO  17:56:22,292 - ===================================
+INFO  17:56:22,297 - Parsiranje uspjesno zavrseno!

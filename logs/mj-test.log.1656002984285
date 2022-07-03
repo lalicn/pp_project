@@ -1,0 +1,92 @@
+INFO  18:49:13,308 - Compiling source file: C:\Users\Korisnik\Desktop\Programski prevodioci\Uradjeno\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  18:49:13,357 - #2 program
+INFO  18:49:13,358 - #50 test301
+INFO  18:49:13,358 - #45 {
+INFO  18:49:13,359 - #13 void
+INFO  18:49:13,359 - #50 main
+INFO  18:49:13,360 - #41 (
+INFO  18:49:13,360 - #42 )
+INFO  18:49:13,361 - #50 int
+INFO  18:49:13,362 - #50 bodovi
+INFO  18:49:13,364 - #37 ;
+INFO  18:49:13,364 - #45 {
+INFO  18:49:13,365 - #50 bodovi
+INFO  18:49:13,365 - #34 =
+INFO  18:49:13,365 - #49 2
+INFO  18:49:13,366 - #25 ^
+INFO  18:49:13,366 - #49 3
+INFO  18:49:13,367 - #37 ;
+INFO  18:49:13,368 - #46 }
+INFO  18:49:13,368 - #46 }
+INFO  18:49:13,370 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  DeclarationsDerived1(
+  ) [DeclarationsDerived1]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        VoidReturn(
+        ) [VoidReturn]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      VarDeclarations(
+        NoVarDecl(
+        ) [NoVarDecl]
+        VarDeclara(
+          VarType(
+            Type(
+             int
+            ) [Type]
+          ) [VarType]
+          NoVarCommaDecl(
+          ) [NoVarCommaDecl]
+          VarDeclaration(
+           bodovi
+          ) [VarDeclaration]
+        ) [VarDeclara]
+      ) [VarDeclarations]
+      StmtList(
+        NoStmt(
+        ) [NoStmt]
+        NoLabelStatement(
+          DesignStatement(
+            AssignopDesignator(
+              IdentDesignator(
+               bodovi
+              ) [IdentDesignator]
+              Assignop(
+              ) [Assignop]
+              TermExpr(
+                SingleFactorTerm(
+                  MultipleBaseExpsFactor(
+                    SingleBaseExpFactor(
+                      NumberConst(
+                       2
+                      ) [NumberConst]
+                    ) [SingleBaseExpFactor]
+                    Square(
+                    ) [Square]
+                    NumberConst(
+                     3
+                    ) [NumberConst]
+                  ) [MultipleBaseExpsFactor]
+                ) [SingleFactorTerm]
+              ) [TermExpr]
+            ) [AssignopDesignator]
+          ) [DesignStatement]
+        ) [NoLabelStatement]
+      ) [StmtList]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:49:13,378 - ===================================
+INFO  18:49:13,394 - Obradjuje se funkcija main na liniji 6
+INFO  18:49:13,394 - Deklarisana promjenljiva bodovi na liniji 7
+INFO  18:49:13,394 - ===================================
+INFO  18:49:13,400 - Parsiranje uspjesno zavrseno!

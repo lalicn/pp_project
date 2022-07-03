@@ -1,0 +1,14 @@
+INFO  09:52:32,677 - Compiling source file: C:\Users\Korisnik\Desktop\Programski prevodioci\Uradjeno\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  09:52:32,717 - #2 program
+INFO  09:52:32,717 - #49 MJProgram
+INFO  09:52:32,717 - #49 int
+INFO  09:52:32,718 - #49 x
+INFO  09:52:32,719 - #36 ;
+INFO  09:52:32,719 - #6 const
+INFO  09:52:32,719 - #49 boolean
+INFO  09:52:32,719 - #49 y
+INFO  09:52:32,720 - #33 =
+INFO  09:52:32,720 - #49 true
+ERROR 09:52:32,721 - 
+Sintaksna greska na liniji 2
+ERROR 09:52:32,721 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 2

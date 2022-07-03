@@ -1,0 +1,10 @@
+INFO  09:45:43,493 - Compiling source file: C:\Users\Korisnik\Desktop\Programski prevodioci\Uradjeno\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  09:45:43,532 - #2 program
+INFO  09:45:43,532 - #49 MJProgram
+INFO  09:45:43,532 - #49 int
+INFO  09:45:43,533 - #49 x
+INFO  09:45:43,535 - #36 ;
+INFO  09:45:43,535 - #6 const
+INFO  09:45:43,535 - #49 char
+INFO  09:45:43,535 - #49 y
+INFO  09:45:43,536 - #33 =

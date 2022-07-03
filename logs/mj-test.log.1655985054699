@@ -1,0 +1,684 @@
+INFO  13:50:20,146 - Compiling source file: C:\Users\Korisnik\Desktop\Programski prevodioci\Uradjeno\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  13:50:20,194 - #2 program
+INFO  13:50:20,194 - #50 test301
+INFO  13:50:20,194 - #6 const
+INFO  13:50:20,195 - #50 int
+INFO  13:50:20,195 - #50 nula
+INFO  13:50:20,196 - #34 =
+INFO  13:50:20,196 - #49 0
+INFO  13:50:20,197 - #37 ;
+INFO  13:50:20,197 - #6 const
+INFO  13:50:20,198 - #50 int
+INFO  13:50:20,198 - #50 jedan
+INFO  13:50:20,198 - #34 =
+INFO  13:50:20,198 - #49 1
+INFO  13:50:20,198 - #37 ;
+INFO  13:50:20,198 - #6 const
+INFO  13:50:20,198 - #50 int
+INFO  13:50:20,198 - #50 tri
+INFO  13:50:20,198 - #34 =
+INFO  13:50:20,198 - #49 3
+INFO  13:50:20,199 - #37 ;
+INFO  13:50:20,206 - #6 const
+INFO  13:50:20,206 - #50 int
+INFO  13:50:20,206 - #50 pet
+INFO  13:50:20,206 - #34 =
+INFO  13:50:20,206 - #49 5
+INFO  13:50:20,206 - #37 ;
+INFO  13:50:20,206 - #50 int
+INFO  13:50:20,206 - #50 niz
+INFO  13:50:20,208 - #43 [
+INFO  13:50:20,208 - #44 ]
+INFO  13:50:20,208 - #37 ;
+INFO  13:50:20,208 - #50 char
+INFO  13:50:20,208 - #50 nizch
+INFO  13:50:20,208 - #43 [
+INFO  13:50:20,209 - #44 ]
+INFO  13:50:20,209 - #37 ;
+INFO  13:50:20,209 - #45 {
+INFO  13:50:20,209 - #13 void
+INFO  13:50:20,210 - #50 main
+INFO  13:50:20,210 - #41 (
+INFO  13:50:20,211 - #42 )
+INFO  13:50:20,211 - #50 int
+INFO  13:50:20,212 - #50 bodovi
+INFO  13:50:20,212 - #37 ;
+INFO  13:50:20,212 - #50 bool
+INFO  13:50:20,213 - #50 bt
+INFO  13:50:20,213 - #37 ;
+INFO  13:50:20,213 - #45 {
+INFO  13:50:20,213 - #50 bodovi
+INFO  13:50:20,214 - #34 =
+INFO  13:50:20,214 - #49 0
+INFO  13:50:20,214 - #37 ;
+INFO  13:50:20,214 - #50 bodovi
+INFO  13:50:20,215 - #35 ++
+INFO  13:50:20,215 - #37 ;
+INFO  13:50:20,215 - #50 bodovi
+INFO  13:50:20,215 - #34 =
+INFO  13:50:20,215 - #41 (
+INFO  13:50:20,215 - #50 bodovi
+INFO  13:50:20,215 - #20 +
+INFO  13:50:20,215 - #50 jedan
+INFO  13:50:20,216 - #42 )
+INFO  13:50:20,216 - #25 ^
+INFO  13:50:20,216 - #50 tri
+INFO  13:50:20,217 - #37 ;
+INFO  13:50:20,217 - #50 bodovi
+INFO  13:50:20,218 - #34 =
+INFO  13:50:20,218 - #50 bodovi
+INFO  13:50:20,223 - #22 *
+INFO  13:50:20,223 - #50 pet
+INFO  13:50:20,224 - #37 ;
+INFO  13:50:20,224 - #50 bodovi
+INFO  13:50:20,224 - #36 --
+INFO  13:50:20,224 - #37 ;
+INFO  13:50:20,224 - #10 print
+INFO  13:50:20,225 - #41 (
+INFO  13:50:20,225 - #50 bodovi
+INFO  13:50:20,225 - #42 )
+INFO  13:50:20,225 - #37 ;
+INFO  13:50:20,225 - #50 niz
+INFO  13:50:20,225 - #34 =
+INFO  13:50:20,225 - #9 new
+INFO  13:50:20,225 - #50 int
+INFO  13:50:20,225 - #43 [
+INFO  13:50:20,225 - #49 3
+INFO  13:50:20,225 - #44 ]
+INFO  13:50:20,225 - #37 ;
+INFO  13:50:20,225 - #50 niz
+INFO  13:50:20,226 - #43 [
+INFO  13:50:20,226 - #50 nula
+INFO  13:50:20,226 - #44 ]
+INFO  13:50:20,226 - #34 =
+INFO  13:50:20,226 - #50 jedan
+INFO  13:50:20,226 - #37 ;
+INFO  13:50:20,226 - #50 niz
+INFO  13:50:20,226 - #43 [
+INFO  13:50:20,226 - #49 1
+INFO  13:50:20,226 - #44 ]
+INFO  13:50:20,226 - #34 =
+INFO  13:50:20,227 - #49 2
+INFO  13:50:20,227 - #37 ;
+INFO  13:50:20,227 - #50 niz
+INFO  13:50:20,227 - #43 [
+INFO  13:50:20,227 - #50 niz
+INFO  13:50:20,227 - #43 [
+INFO  13:50:20,227 - #50 jedan
+INFO  13:50:20,227 - #44 ]
+INFO  13:50:20,227 - #25 ^
+INFO  13:50:20,227 - #49 2
+INFO  13:50:20,227 - #21 -
+INFO  13:50:20,227 - #49 2
+INFO  13:50:20,228 - #44 ]
+INFO  13:50:20,228 - #34 =
+INFO  13:50:20,228 - #50 niz
+INFO  13:50:20,228 - #43 [
+INFO  13:50:20,228 - #50 niz
+INFO  13:50:20,228 - #43 [
+INFO  13:50:20,228 - #49 0
+INFO  13:50:20,228 - #44 ]
+INFO  13:50:20,228 - #25 ^
+INFO  13:50:20,228 - #41 (
+INFO  13:50:20,229 - #50 bodovi
+INFO  13:50:20,229 - #22 *
+INFO  13:50:20,229 - #49 3
+INFO  13:50:20,229 - #42 )
+INFO  13:50:20,229 - #44 ]
+INFO  13:50:20,229 - #22 *
+INFO  13:50:20,229 - #49 3
+INFO  13:50:20,229 - #37 ;
+INFO  13:50:20,229 - #46 }
+INFO  13:50:20,229 - #46 }
+INFO  13:50:20,233 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  Decl(
+    Decl(
+      Decl(
+        Decl(
+          Decl(
+            Decl(
+              DeclarationsDerived1(
+              ) [DeclarationsDerived1]
+              ConstDec(
+                ConstDeclar(
+                  ConstType(
+                    Type(
+                     int
+                    ) [Type]
+                  ) [ConstType]
+                  SingleConstDecl(
+                    ConstDNum(
+                     nula
+                      Assignop(
+                      ) [Assignop]
+                     0
+                    ) [ConstDNum]
+                  ) [SingleConstDecl]
+                ) [ConstDeclar]
+              ) [ConstDec]
+            ) [Decl]
+            ConstDec(
+              ConstDeclar(
+                ConstType(
+                  Type(
+                   int
+                  ) [Type]
+                ) [ConstType]
+                SingleConstDecl(
+                  ConstDNum(
+                   jedan
+                    Assignop(
+                    ) [Assignop]
+                   1
+                  ) [ConstDNum]
+                ) [SingleConstDecl]
+              ) [ConstDeclar]
+            ) [ConstDec]
+          ) [Decl]
+          ConstDec(
+            ConstDeclar(
+              ConstType(
+                Type(
+                 int
+                ) [Type]
+              ) [ConstType]
+              SingleConstDecl(
+                ConstDNum(
+                 tri
+                  Assignop(
+                  ) [Assignop]
+                 3
+                ) [ConstDNum]
+              ) [SingleConstDecl]
+            ) [ConstDeclar]
+          ) [ConstDec]
+        ) [Decl]
+        ConstDec(
+          ConstDeclar(
+            ConstType(
+              Type(
+               int
+              ) [Type]
+            ) [ConstType]
+            SingleConstDecl(
+              ConstDNum(
+               pet
+                Assignop(
+                ) [Assignop]
+               5
+              ) [ConstDNum]
+            ) [SingleConstDecl]
+          ) [ConstDeclar]
+        ) [ConstDec]
+      ) [Decl]
+      VarDec(
+        VarDeclara(
+          VarType(
+            Type(
+             int
+            ) [Type]
+          ) [VarType]
+          NoVarCommaDecl(
+          ) [NoVarCommaDecl]
+          VarArrayD(
+           niz
+          ) [VarArrayD]
+        ) [VarDeclara]
+      ) [VarDec]
+    ) [Decl]
+    VarDec(
+      VarDeclara(
+        VarType(
+          Type(
+           char
+          ) [Type]
+        ) [VarType]
+        NoVarCommaDecl(
+        ) [NoVarCommaDecl]
+        VarArrayD(
+         nizch
+        ) [VarArrayD]
+      ) [VarDeclara]
+    ) [VarDec]
+  ) [Decl]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        VoidReturn(
+        ) [VoidReturn]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      VarDeclarations(
+        VarDeclarations(
+          NoVarDecl(
+          ) [NoVarDecl]
+          VarDeclara(
+            VarType(
+              Type(
+               int
+              ) [Type]
+            ) [VarType]
+            NoVarCommaDecl(
+            ) [NoVarCommaDecl]
+            VarDeclaration(
+             bodovi
+            ) [VarDeclaration]
+          ) [VarDeclara]
+        ) [VarDeclarations]
+        VarDeclara(
+          VarType(
+            Type(
+             bool
+            ) [Type]
+          ) [VarType]
+          NoVarCommaDecl(
+          ) [NoVarCommaDecl]
+          VarDeclaration(
+           bt
+          ) [VarDeclaration]
+        ) [VarDeclara]
+      ) [VarDeclarations]
+      StmtList(
+        StmtList(
+          StmtList(
+            StmtList(
+              StmtList(
+                StmtList(
+                  StmtList(
+                    StmtList(
+                      StmtList(
+                        StmtList(
+                          NoStmt(
+                          ) [NoStmt]
+                          NoLabelStatement(
+                            DesignStatement(
+                              AssignopDesignator(
+                                IdentDesignator(
+                                 bodovi
+                                ) [IdentDesignator]
+                                Assignop(
+                                ) [Assignop]
+                                TermExpr(
+                                  SingleFactorTerm(
+                                    SingleBaseExpFactor(
+                                      NumberConst(
+                                       0
+                                      ) [NumberConst]
+                                    ) [SingleBaseExpFactor]
+                                  ) [SingleFactorTerm]
+                                ) [TermExpr]
+                              ) [AssignopDesignator]
+                            ) [DesignStatement]
+                          ) [NoLabelStatement]
+                        ) [StmtList]
+                        NoLabelStatement(
+                          DesignStatement(
+                            IncrementDesignator(
+                              IdentDesignator(
+                               bodovi
+                              ) [IdentDesignator]
+                            ) [IncrementDesignator]
+                          ) [DesignStatement]
+                        ) [NoLabelStatement]
+                      ) [StmtList]
+                      NoLabelStatement(
+                        DesignStatement(
+                          AssignopDesignator(
+                            IdentDesignator(
+                             bodovi
+                            ) [IdentDesignator]
+                            Assignop(
+                            ) [Assignop]
+                            TermExpr(
+                              SingleFactorTerm(
+                                MultipleBaseExpsFactor(
+                                  SingleBaseExpFactor(
+                                    Expression(
+                                      AddopExpr(
+                                        TermExpr(
+                                          SingleFactorTerm(
+                                            SingleBaseExpFactor(
+                                              Var(
+                                                IdentDesignator(
+                                                 bodovi
+                                                ) [IdentDesignator]
+                                              ) [Var]
+                                            ) [SingleBaseExpFactor]
+                                          ) [SingleFactorTerm]
+                                        ) [TermExpr]
+                                        Plus(
+                                        ) [Plus]
+                                        SingleFactorTerm(
+                                          SingleBaseExpFactor(
+                                            Var(
+                                              IdentDesignator(
+                                               jedan
+                                              ) [IdentDesignator]
+                                            ) [Var]
+                                          ) [SingleBaseExpFactor]
+                                        ) [SingleFactorTerm]
+                                      ) [AddopExpr]
+                                    ) [Expression]
+                                  ) [SingleBaseExpFactor]
+                                  Square(
+                                  ) [Square]
+                                  Var(
+                                    IdentDesignator(
+                                     tri
+                                    ) [IdentDesignator]
+                                  ) [Var]
+                                ) [MultipleBaseExpsFactor]
+                              ) [SingleFactorTerm]
+                            ) [TermExpr]
+                          ) [AssignopDesignator]
+                        ) [DesignStatement]
+                      ) [NoLabelStatement]
+                    ) [StmtList]
+                    NoLabelStatement(
+                      DesignStatement(
+                        AssignopDesignator(
+                          IdentDesignator(
+                           bodovi
+                          ) [IdentDesignator]
+                          Assignop(
+                          ) [Assignop]
+                          TermExpr(
+                            MultipleFactorsTerm(
+                              SingleFactorTerm(
+                                SingleBaseExpFactor(
+                                  Var(
+                                    IdentDesignator(
+                                     bodovi
+                                    ) [IdentDesignator]
+                                  ) [Var]
+                                ) [SingleBaseExpFactor]
+                              ) [SingleFactorTerm]
+                              Multiply(
+                              ) [Multiply]
+                              SingleBaseExpFactor(
+                                Var(
+                                  IdentDesignator(
+                                   pet
+                                  ) [IdentDesignator]
+                                ) [Var]
+                              ) [SingleBaseExpFactor]
+                            ) [MultipleFactorsTerm]
+                          ) [TermExpr]
+                        ) [AssignopDesignator]
+                      ) [DesignStatement]
+                    ) [NoLabelStatement]
+                  ) [StmtList]
+                  NoLabelStatement(
+                    DesignStatement(
+                      DecrementDesignator(
+                        IdentDesignator(
+                         bodovi
+                        ) [IdentDesignator]
+                      ) [DecrementDesignator]
+                    ) [DesignStatement]
+                  ) [NoLabelStatement]
+                ) [StmtList]
+                NoLabelStatement(
+                  PrintStatement(
+                    TermExpr(
+                      SingleFactorTerm(
+                        SingleBaseExpFactor(
+                          Var(
+                            IdentDesignator(
+                             bodovi
+                            ) [IdentDesignator]
+                          ) [Var]
+                        ) [SingleBaseExpFactor]
+                      ) [SingleFactorTerm]
+                    ) [TermExpr]
+                  ) [PrintStatement]
+                ) [NoLabelStatement]
+              ) [StmtList]
+              NoLabelStatement(
+                DesignStatement(
+                  AssignopDesignator(
+                    IdentDesignator(
+                     niz
+                    ) [IdentDesignator]
+                    Assignop(
+                    ) [Assignop]
+                    TermExpr(
+                      SingleFactorTerm(
+                        SingleBaseExpFactor(
+                          NewArray(
+                            Type(
+                             int
+                            ) [Type]
+                            TermExpr(
+                              SingleFactorTerm(
+                                SingleBaseExpFactor(
+                                  NumberConst(
+                                   3
+                                  ) [NumberConst]
+                                ) [SingleBaseExpFactor]
+                              ) [SingleFactorTerm]
+                            ) [TermExpr]
+                          ) [NewArray]
+                        ) [SingleBaseExpFactor]
+                      ) [SingleFactorTerm]
+                    ) [TermExpr]
+                  ) [AssignopDesignator]
+                ) [DesignStatement]
+              ) [NoLabelStatement]
+            ) [StmtList]
+            NoLabelStatement(
+              DesignStatement(
+                AssignopDesignator(
+                  ArrayDesignator(
+                    IdentDesignator(
+                     niz
+                    ) [IdentDesignator]
+                    TermExpr(
+                      SingleFactorTerm(
+                        SingleBaseExpFactor(
+                          Var(
+                            IdentDesignator(
+                             nula
+                            ) [IdentDesignator]
+                          ) [Var]
+                        ) [SingleBaseExpFactor]
+                      ) [SingleFactorTerm]
+                    ) [TermExpr]
+                  ) [ArrayDesignator]
+                  Assignop(
+                  ) [Assignop]
+                  TermExpr(
+                    SingleFactorTerm(
+                      SingleBaseExpFactor(
+                        Var(
+                          IdentDesignator(
+                           jedan
+                          ) [IdentDesignator]
+                        ) [Var]
+                      ) [SingleBaseExpFactor]
+                    ) [SingleFactorTerm]
+                  ) [TermExpr]
+                ) [AssignopDesignator]
+              ) [DesignStatement]
+            ) [NoLabelStatement]
+          ) [StmtList]
+          NoLabelStatement(
+            DesignStatement(
+              AssignopDesignator(
+                ArrayDesignator(
+                  IdentDesignator(
+                   niz
+                  ) [IdentDesignator]
+                  TermExpr(
+                    SingleFactorTerm(
+                      SingleBaseExpFactor(
+                        NumberConst(
+                         1
+                        ) [NumberConst]
+                      ) [SingleBaseExpFactor]
+                    ) [SingleFactorTerm]
+                  ) [TermExpr]
+                ) [ArrayDesignator]
+                Assignop(
+                ) [Assignop]
+                TermExpr(
+                  SingleFactorTerm(
+                    SingleBaseExpFactor(
+                      NumberConst(
+                       2
+                      ) [NumberConst]
+                    ) [SingleBaseExpFactor]
+                  ) [SingleFactorTerm]
+                ) [TermExpr]
+              ) [AssignopDesignator]
+            ) [DesignStatement]
+          ) [NoLabelStatement]
+        ) [StmtList]
+        NoLabelStatement(
+          DesignStatement(
+            AssignopDesignator(
+              ArrayDesignator(
+                IdentDesignator(
+                 niz
+                ) [IdentDesignator]
+                AddopExpr(
+                  TermExpr(
+                    SingleFactorTerm(
+                      MultipleBaseExpsFactor(
+                        SingleBaseExpFactor(
+                          Var(
+                            ArrayDesignator(
+                              IdentDesignator(
+                               niz
+                              ) [IdentDesignator]
+                              TermExpr(
+                                SingleFactorTerm(
+                                  SingleBaseExpFactor(
+                                    Var(
+                                      IdentDesignator(
+                                       jedan
+                                      ) [IdentDesignator]
+                                    ) [Var]
+                                  ) [SingleBaseExpFactor]
+                                ) [SingleFactorTerm]
+                              ) [TermExpr]
+                            ) [ArrayDesignator]
+                          ) [Var]
+                        ) [SingleBaseExpFactor]
+                        Square(
+                        ) [Square]
+                        NumberConst(
+                         2
+                        ) [NumberConst]
+                      ) [MultipleBaseExpsFactor]
+                    ) [SingleFactorTerm]
+                  ) [TermExpr]
+                  Minus(
+                  ) [Minus]
+                  SingleFactorTerm(
+                    SingleBaseExpFactor(
+                      NumberConst(
+                       2
+                      ) [NumberConst]
+                    ) [SingleBaseExpFactor]
+                  ) [SingleFactorTerm]
+                ) [AddopExpr]
+              ) [ArrayDesignator]
+              Assignop(
+              ) [Assignop]
+              TermExpr(
+                MultipleFactorsTerm(
+                  SingleFactorTerm(
+                    SingleBaseExpFactor(
+                      Var(
+                        ArrayDesignator(
+                          IdentDesignator(
+                           niz
+                          ) [IdentDesignator]
+                          TermExpr(
+                            SingleFactorTerm(
+                              MultipleBaseExpsFactor(
+                                SingleBaseExpFactor(
+                                  Var(
+                                    ArrayDesignator(
+                                      IdentDesignator(
+                                       niz
+                                      ) [IdentDesignator]
+                                      TermExpr(
+                                        SingleFactorTerm(
+                                          SingleBaseExpFactor(
+                                            NumberConst(
+                                             0
+                                            ) [NumberConst]
+                                          ) [SingleBaseExpFactor]
+                                        ) [SingleFactorTerm]
+                                      ) [TermExpr]
+                                    ) [ArrayDesignator]
+                                  ) [Var]
+                                ) [SingleBaseExpFactor]
+                                Square(
+                                ) [Square]
+                                Expression(
+                                  TermExpr(
+                                    MultipleFactorsTerm(
+                                      SingleFactorTerm(
+                                        SingleBaseExpFactor(
+                                          Var(
+                                            IdentDesignator(
+                                             bodovi
+                                            ) [IdentDesignator]
+                                          ) [Var]
+                                        ) [SingleBaseExpFactor]
+                                      ) [SingleFactorTerm]
+                                      Multiply(
+                                      ) [Multiply]
+                                      SingleBaseExpFactor(
+                                        NumberConst(
+                                         3
+                                        ) [NumberConst]
+                                      ) [SingleBaseExpFactor]
+                                    ) [MultipleFactorsTerm]
+                                  ) [TermExpr]
+                                ) [Expression]
+                              ) [MultipleBaseExpsFactor]
+                            ) [SingleFactorTerm]
+                          ) [TermExpr]
+                        ) [ArrayDesignator]
+                      ) [Var]
+                    ) [SingleBaseExpFactor]
+                  ) [SingleFactorTerm]
+                  Multiply(
+                  ) [Multiply]
+                  SingleBaseExpFactor(
+                    NumberConst(
+                     3
+                    ) [NumberConst]
+                  ) [SingleBaseExpFactor]
+                ) [MultipleFactorsTerm]
+              ) [TermExpr]
+            ) [AssignopDesignator]
+          ) [DesignStatement]
+        ) [NoLabelStatement]
+      ) [StmtList]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  13:50:20,233 - ===================================
+INFO  13:50:20,250 - Deklarisana konstanta nula na liniji 5
+INFO  13:50:20,250 - Deklarisana konstanta jedan na liniji 6
+INFO  13:50:20,250 - Deklarisana konstanta tri na liniji 7
+INFO  13:50:20,250 - Deklarisana konstanta pet na liniji 8
+INFO  13:50:20,250 - Deklarisana promjenljiva niz na liniji 10
+INFO  13:50:20,250 - Deklarisana promjenljiva nizch na liniji 11
+INFO  13:50:20,250 - Obradjuje se funkcija main na liniji 14
+INFO  13:50:20,250 - Deklarisana promjenljiva bodovi na liniji 15
+INFO  13:50:20,250 - Deklarisana promjenljiva bt na liniji 16
+INFO  13:50:20,250 - ===================================
+INFO  13:50:20,256 - Parsiranje uspjesno zavrseno!
